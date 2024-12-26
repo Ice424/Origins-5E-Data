@@ -7,6 +7,18 @@
     "entity_action_lost": [
         {
             "types": "origins:execute_command",
+            "command": "tag @s remove ddamgemobs"
+        },
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove hotvillage"
+        },
+        {
+            "types": "origins:execute_command",
+            "command": "tag @s remove reach"
+        },
+        {
+            "types": "origins:execute_command",
             "command": "tag @s remove saturation"
         },
         {
@@ -15,15 +27,15 @@
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove ddamgemobs"
+            "command": "tag @s remove arrows"
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove reach"
+            "command": "tag @s remove overheal"
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove hotvillage"
+            "command": "tag @s remove powered"
         },
         {
             "types": "origins:execute_command",
@@ -35,15 +47,11 @@
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove arrows"
+            "command": "tag @s remove haste"
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove powered"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove overheal"
+            "command": "tag @s remove hearts"
         },
         {
             "types": "origins:execute_command",
@@ -52,14 +60,6 @@
         {
             "types": "origins:execute_command",
             "command": "tag @s remove strength"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove hearts"
-        },
-        {
-            "types": "origins:execute_command",
-            "command": "tag @s remove haste"
         },
         {
             "types": "origins:execute_command",

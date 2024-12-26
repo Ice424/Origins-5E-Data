@@ -7,11 +7,11 @@
     "entity_action_lost": [
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove foliage_heal"
+            "command": "tag @s remove animals_follow"
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove vegetarian"
+            "command": "tag @s remove foliage_heal"
         },
         {
             "types": "origins:execute_command",
@@ -19,7 +19,7 @@
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove animals_follow"
+            "command": "tag @s remove vegetarian"
         }
     ],
     "hidden": true

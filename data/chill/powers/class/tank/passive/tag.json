@@ -7,11 +7,11 @@
     "entity_action_lost": [
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove saturation"
+            "command": "tag @s remove resistance"
         },
         {
             "types": "origins:execute_command",
-            "command": "tag @s remove resistance"
+            "command": "tag @s remove saturation"
         }
     ],
     "hidden": true
