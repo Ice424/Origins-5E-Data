@@ -27,7 +27,7 @@
 - [ ] Wizard
   - [ ] Passive
     - [x] ~~Shoot someone to apply glowing~~
-    - [ ] 8 hearts
+    - [x] ~~8 hearts~~
     - [ ] shift to get ender pearl cooldown 60 secs 
   - [ ] High
     - [ ] Shoot fireball that explodes
@@ -35,27 +35,31 @@
     - [ ] Temporarily get frost walker and slow aura
     - [ ] Use ability to push all mobs back 5 blocks in 10 block radius
   - [ ] Special
-    - [ ] Ability to summon lightning storm on an area
+    - [x] ~~Ability to summon lightning storm on an area~~
     - [ ] Ability to inflict wither to any mobs within fov
     - [ ] Crouching mid air allows slow falling
     - [ ] Ability to fly for short amount of time
+
 - [ ] Rogue
   - [ ] Passive
     - [ ] 8 hearts 
     - [ ] silent footsteps 
     - [ ] no name tag 
     - [ ] mobs take longer to aggro
+
   - [ ] High
     - [ ] no fall damage
     - [ ] Ability to give blindness to anyone in 5 blocks for 4 seconds
     - [ ] Use ability to get speed 3 and strength 2
     - [ ] Get a grappling hook - Is broken currently
+
   - [ ] Special
     - [ ] Wall climb ability
     - [ ] Used ability to get invisibility for 15 secs, cooldown 45 secs
     - [ ] Ability to teleport where they are looking
     - [ ] Get a 10 6 block dash that scales with momentum
-    - [ ] Double damage to enemies who have a negative potion effect or are below half health 
+    - [ ] Double damage to enemies who have a negative potion effect or are below half health
+
 - [ ] Tank (paladin/barbarian)
   - [ ] Passive
     - [ ] Resistance 1

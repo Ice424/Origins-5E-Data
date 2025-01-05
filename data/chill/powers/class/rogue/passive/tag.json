@@ -7,6 +7,54 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove dash"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove invisability"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove oppertunist"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove teleport"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove wall_climb"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove blindness"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove fall_dmg"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove stelath_bonus"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove agro"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove footsteps"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove hearts"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove nametag"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove less_hearts"
         },
         {

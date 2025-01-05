@@ -1,6 +1,5 @@
 {
     "powers": [
-        "chill:class/cleric/passive/heal",
         "chill:class/cleric/passive/health",
         "chill:class/cleric/passive/tag"
     ],

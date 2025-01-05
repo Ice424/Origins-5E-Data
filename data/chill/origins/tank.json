@@ -1,5 +1,6 @@
 {
     "powers": [
+        "chill:class/tank/passive/tag"
     ],
     "icon": {
         "id": "minecraft:shield"

@@ -27,6 +27,10 @@
         },
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove speed_upgrade"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove arrows"
         },
         {
@@ -66,5 +70,5 @@
             "command": "tag @s remove more_hearts"
         }
     ],
-    "hidden": true
+    "hidden": false
 }

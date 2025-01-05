@@ -23,11 +23,15 @@
         },
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove hunger"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove lifesteal"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove heal"
+            "command": "tag @s remove teleport"
         },
         {
             "type": "origins:execute_command",
@@ -36,6 +40,10 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove health"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove heal_self"
         },
         {
             "type": "origins:execute_command",

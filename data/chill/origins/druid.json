@@ -1,5 +1,6 @@
 {
     "powers": [
+        "chill:class/druid/passive/tag"
     ],
     "icon": {
         "id": "minecraft:small_dripleaf"

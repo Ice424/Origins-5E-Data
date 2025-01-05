@@ -1,0 +1,23 @@
+{
+    "type": "origins:action_on_hit",
+    "name": "Spectral shot",
+    "description": "All the projectiles you shoot inflict glowing",
+    "damage_condition": {
+        "type": "origins:projectile",
+        "damage_condition": {
+            "type": "origins:projectile"
+        }
+    },
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "id": "minecraft:glowing",
+                "duration": 300,
+                "amplifier": 0,
+                "show_particles": false
+            }
+        }
+    }
+}

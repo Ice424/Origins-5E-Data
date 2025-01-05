@@ -2,7 +2,7 @@
     "powers": [
         "chill:class/wizard/passive/glow",
         "chill:class/wizard/passive/health",
-        "chill:class/wizard/passive/pearl"
+        "chill:class/wizard/passive/tag"
     ],
     "icon": {
         "id": "minecraft:enchanted_book"

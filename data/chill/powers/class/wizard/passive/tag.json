@@ -7,11 +7,43 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove fly"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove lightning"
         },
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove slow_fall"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove wither"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove fireball"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove glow"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove ice"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove push"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove glow"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove glow_arrrow"
         },
         {
             "type": "origins:execute_command",

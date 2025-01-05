@@ -7,6 +7,58 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove animal_controll"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove bone_meal"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove freeze"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove skulk"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove speed"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove arrows"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove poison"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove underwater"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove wall_climb"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove animal"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove heal"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove health"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove vegiterian"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove animals_follow"
         },
         {
