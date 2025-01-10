@@ -23,10 +23,6 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove speed"
-        },
-        {
-            "type": "origins:execute_command",
             "command": "tag @s remove speed_upgrade"
         },
         {
@@ -64,11 +60,7 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove strength"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove more_hearts"
         }
     ],
-    "hidden": false
+    "hidden": true
 }
