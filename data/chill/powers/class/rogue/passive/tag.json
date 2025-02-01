@@ -11,11 +11,11 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove invisability"
+            "command": "tag @s remove invisibility"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove oppertunist"
+            "command": "tag @s remove opportunist"
         },
         {
             "type": "origins:execute_command",
@@ -35,7 +35,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove stelath_bonus"
+            "command": "tag @s remove stealth_bonus"
         },
         {
             "type": "origins:execute_command",
@@ -52,22 +52,6 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove nametag"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove less_hearts"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove longmob_aggro"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove no_nametag"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove silent_footsteps"
         }
     ],
     "hidden": true

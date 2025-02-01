@@ -11,15 +11,15 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove lightning"
-        },
-        {
-            "type": "origins:execute_command",
             "command": "tag @s remove slow_fall"
         },
         {
             "type": "origins:execute_command",
             "command": "tag @s remove wither"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove lightning"
         },
         {
             "type": "origins:execute_command",
@@ -39,11 +39,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove glow"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove glow_arrrow"
+            "command": "tag @s remove glow_arrow"
         },
         {
             "type": "origins:execute_command",
@@ -52,18 +48,6 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove pearl"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove gain_enderpearl"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove hit_glow"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove less_hearts"
         }
     ],
     "hidden": true

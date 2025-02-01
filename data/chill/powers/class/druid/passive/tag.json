@@ -7,7 +7,7 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove animal_controll"
+            "command": "tag @s remove animal_control"
         },
         {
             "type": "origins:execute_command",
@@ -52,22 +52,6 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove health"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove vegiterian"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove animals_follow"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove foliage_heal"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove less_hearts"
         },
         {
             "type": "origins:execute_command",

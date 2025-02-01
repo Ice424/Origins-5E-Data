@@ -44,14 +44,6 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove heal_self"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove healing_field"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove less_hearts"
         }
     ],
     "hidden": true
