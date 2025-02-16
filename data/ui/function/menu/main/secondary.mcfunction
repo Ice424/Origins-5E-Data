@@ -1,4 +1,6 @@
+say hi
 power revoke @p all chill:secondary
+
 
 execute if score @p predicate matches 84 run scoreboard players set @p secondary 84
 execute if score @p predicate matches 84 run power grant @p chill:high/inventory/secondary chill:secondary
@@ -43,4 +45,4 @@ execute if score @p predicate matches 42 run power grant @p chill:class/fighter/
 execute if score @p predicate matches 82 run scoreboard players set @p secondary 82
 execute if score @p predicate matches 82 run power grant @p chill:class/wizard/special/lightning/secondary chill:secondary
 
-function ui:menu/main/openspellbook
+function ui:menu/main/open_spellbook

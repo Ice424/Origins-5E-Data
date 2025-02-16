@@ -43,4 +43,4 @@ execute if score @p predicate matches 42 run power grant @p chill:class/fighter/
 execute if score @p predicate matches 82 run scoreboard players set @p primary 82
 execute if score @p predicate matches 82 run power grant @p chill:class/wizard/special/lightning/primary chill:primary
 
-function ui:menu/main/openspellbook
+function ui:menu/main/open_spellbook
