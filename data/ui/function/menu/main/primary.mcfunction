@@ -1,15 +1,19 @@
 power revoke @p all chill:primary
 
-execute if score @p predicate matches 84 run scoreboard players set @p primary 84
-execute if score @p predicate matches 84 run power grant @p chill:high/inventory/primary chill:primary
+execute if score @p predicate matches 83 run scoreboard players set @p primary 83
+execute if score @p predicate matches 83 run power grant @p chill:high/inventory/primary chill:primary
+
+
+execute if score @p predicate matches 87 run scoreboard players set @p primary 87
+execute if score @p predicate matches 87 run power grant @p chill:high/permeation/primary chill:primary
 
 
 execute if score @p predicate matches 88 run scoreboard players set @p primary 88
-execute if score @p predicate matches 88 run power grant @p chill:high/permeation/primary chill:primary
+execute if score @p predicate matches 88 run power grant @p chill:high/scan/primary chill:primary
 
 
-execute if score @p predicate matches 89 run scoreboard players set @p primary 89
-execute if score @p predicate matches 89 run power grant @p chill:high/scan/primary chill:primary
+execute if score @p predicate matches 91 run scoreboard players set @p primary 91
+execute if score @p predicate matches 91 run power grant @p chill:high/tame/primary chill:primary
 
 
 execute if score @p predicate matches 19 run scoreboard players set @p primary 19
@@ -36,11 +40,7 @@ execute if score @p predicate matches 41 run scoreboard players set @p primary 4
 execute if score @p predicate matches 41 run power grant @p chill:class/fighter/high/speedboost/primary chill:primary
 
 
-execute if score @p predicate matches 42 run scoreboard players set @p primary 42
-execute if score @p predicate matches 42 run power grant @p chill:class/fighter/high/tame/primary chill:primary
-
-
-execute if score @p predicate matches 82 run scoreboard players set @p primary 82
-execute if score @p predicate matches 82 run power grant @p chill:class/wizard/special/lightning/primary chill:primary
+execute if score @p predicate matches 81 run scoreboard players set @p primary 81
+execute if score @p predicate matches 81 run power grant @p chill:class/wizard/special/lightning/primary chill:primary
 
 function ui:menu/main/open_spellbook

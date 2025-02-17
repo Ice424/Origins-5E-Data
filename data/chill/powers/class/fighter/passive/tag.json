@@ -43,10 +43,6 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove tame"
-        },
-        {
-            "type": "origins:execute_command",
             "command": "tag @s remove haste"
         },
         {
@@ -60,6 +56,10 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove strength"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove fighter"
         }
     ],
     "hidden": true

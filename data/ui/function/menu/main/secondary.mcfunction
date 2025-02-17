@@ -1,17 +1,19 @@
-say hi
 power revoke @p all chill:secondary
 
+execute if score @p predicate matches 83 run scoreboard players set @p secondary 83
+execute if score @p predicate matches 83 run power grant @p chill:high/inventory/secondary chill:secondary
 
-execute if score @p predicate matches 84 run scoreboard players set @p secondary 84
-execute if score @p predicate matches 84 run power grant @p chill:high/inventory/secondary chill:secondary
+
+execute if score @p predicate matches 87 run scoreboard players set @p secondary 87
+execute if score @p predicate matches 87 run power grant @p chill:high/permeation/secondary chill:secondary
 
 
 execute if score @p predicate matches 88 run scoreboard players set @p secondary 88
-execute if score @p predicate matches 88 run power grant @p chill:high/permeation/secondary chill:secondary
+execute if score @p predicate matches 88 run power grant @p chill:high/scan/secondary chill:secondary
 
 
-execute if score @p predicate matches 89 run scoreboard players set @p secondary 89
-execute if score @p predicate matches 89 run power grant @p chill:high/scan/secondary chill:secondary
+execute if score @p predicate matches 91 run scoreboard players set @p secondary 91
+execute if score @p predicate matches 91 run power grant @p chill:high/tame/secondary chill:secondary
 
 
 execute if score @p predicate matches 19 run scoreboard players set @p secondary 19
@@ -38,11 +40,7 @@ execute if score @p predicate matches 41 run scoreboard players set @p secondary
 execute if score @p predicate matches 41 run power grant @p chill:class/fighter/high/speedboost/secondary chill:secondary
 
 
-execute if score @p predicate matches 42 run scoreboard players set @p secondary 42
-execute if score @p predicate matches 42 run power grant @p chill:class/fighter/high/tame/secondary chill:secondary
-
-
-execute if score @p predicate matches 82 run scoreboard players set @p secondary 82
-execute if score @p predicate matches 82 run power grant @p chill:class/wizard/special/lightning/secondary chill:secondary
+execute if score @p predicate matches 81 run scoreboard players set @p secondary 81
+execute if score @p predicate matches 81 run power grant @p chill:class/wizard/special/lightning/secondary chill:secondary
 
 function ui:menu/main/open_spellbook

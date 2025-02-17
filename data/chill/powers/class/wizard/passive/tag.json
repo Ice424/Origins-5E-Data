@@ -48,6 +48,10 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove pearl"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove wizard"
         }
     ],
     "hidden": true
