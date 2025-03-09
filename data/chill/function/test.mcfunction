@@ -1,209 +1,227 @@
-data modify storage ui mask insert 0 value {Slot: 0b, id: "minecraft:stick", "components": {"custom_model_data": 40, "custom_name": "{\"text\": \"powered\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-data modify storage ui current insert 0 value {Slot: 0b, id: "minecraft:stick", "components": {"custom_model_data": 40, "custom_name": "{\"text\": \"powered\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 90 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 90, "custom_name": "{\"text\": \"falldmg\", \"color\": \"dark_gray\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 91 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 91, "custom_name": "{\"text\": \"firedmg\", \"color\": \"dark_gray\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 92 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 92, "custom_name": "{\"text\": \"health\", \"color\": \"dark_gray\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 93 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 93, "custom_name": "{\"text\": \"hunger_gain\", \"color\": \"dark_gray\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 94 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 94, "custom_name": "{\"text\": \"hunger_loss\", \"color\": \"dark_gray\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 95 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 95, "custom_name": "{\"text\": \"luck\", \"color\": \"dark_gray\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 96 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 96, "custom_name": "{\"text\": \"swim_speed\", \"color\": \"dark_gray\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 97 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 97, "custom_name": "{\"text\": \"xp\", \"color\": \"dark_gray\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 98 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 98, "custom_name": "{\"text\": \"xp_gain\", \"color\": \"dark_gray\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 84 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 84, "custom_name": "{\"text\": \"grow\", \"color\": \"dark_purple\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 85 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 85, "custom_name": "{\"text\": \"inventory\", \"color\": \"dark_purple\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 86 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 86, "custom_name": "{\"text\": \"jump\", \"color\": \"dark_purple\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 87 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 87, "custom_name": "{\"text\": \"permeation\", \"color\": \"dark_purple\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 88 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 88, "custom_name": "{\"text\": \"scan\", \"color\": \"dark_purple\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 89 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 89, "custom_name": "{\"text\": \"shrink\", \"color\": \"dark_purple\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 16 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 16, "custom_name": "{\"text\": \"death\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 17 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 17, "custom_name": "{\"text\": \"luck\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 18 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 18, "custom_name": "{\"text\": \"see\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 19 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 19, "custom_name": "{\"text\": \"summon\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 10 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 10, "custom_name": "{\"text\": \"hunger\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 11 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 11, "custom_name": "{\"text\": \"lifesteal\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 12 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 12, "custom_name": "{\"text\": \"teleport\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 13 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 13, "custom_name": "{\"text\": \"heal\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 14 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 14, "custom_name": "{\"text\": \"health\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 15 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 15, "custom_name": "{\"text\": \"heal_self\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 99 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 99, "custom_name": "{\"text\": \"healing_field\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 100 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 100, "custom_name": "{\"text\": \"less_hearts\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 28 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 28, "custom_name": "{\"text\": \"animal_controll\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 29 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 29, "custom_name": "{\"text\": \"bone_meal\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 30 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 30, "custom_name": "{\"text\": \"freeze\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 31 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 31, "custom_name": "{\"text\": \"skulk\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 32 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 32, "custom_name": "{\"text\": \"speed\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 20 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 20, "custom_name": "{\"text\": \"arrows\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 21 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 21, "custom_name": "{\"text\": \"poison\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 22 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 22, "custom_name": "{\"text\": \"underwater\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 23 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 23, "custom_name": "{\"text\": \"wall_climb\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 24 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 24, "custom_name": "{\"text\": \"animal\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 25 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 25, "custom_name": "{\"text\": \"heal\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 26 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 26, "custom_name": "{\"text\": \"health\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 27 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 27, "custom_name": "{\"text\": \"vegiterian\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 101 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 101, "custom_name": "{\"text\": \"animals_follow\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 102 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 102, "custom_name": "{\"text\": \"foliage_heal\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 103 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 103, "custom_name": "{\"text\": \"less_hearts\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 104 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 104, "custom_name": "{\"text\": \"vegetarian\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 33 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 33, "custom_name": "{\"text\": \"ddamgemobs\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 34 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 34, "custom_name": "{\"text\": \"hotvillage\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 35 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 35, "custom_name": "{\"text\": \"reach\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 36 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 36, "custom_name": "{\"text\": \"saturation\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 37 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 37, "custom_name": "{\"text\": \"speed_upgrade\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 38 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 38, "custom_name": "{\"text\": \"arrows\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 39 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 39, "custom_name": "{\"text\": \"overheal\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 40, "custom_name": "{\"text\": \"powered\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 41 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 41, "custom_name": "{\"text\": \"speedboost\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 42 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 42, "custom_name": "{\"text\": \"tame\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 43 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 43, "custom_name": "{\"text\": \"haste\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 44 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 44, "custom_name": "{\"text\": \"hearts\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 45 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 45, "custom_name": "{\"text\": \"speed\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 46 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 46, "custom_name": "{\"text\": \"strength\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 54 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 54, "custom_name": "{\"text\": \"dash\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 55 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 55, "custom_name": "{\"text\": \"invisability\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 56 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 56, "custom_name": "{\"text\": \"oppertunist\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 57 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 57, "custom_name": "{\"text\": \"teleport\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 58 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 58, "custom_name": "{\"text\": \"wall_climb\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 47 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 47, "custom_name": "{\"text\": \"blindness\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 48 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 48, "custom_name": "{\"text\": \"fall_dmg\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 49 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 49, "custom_name": "{\"text\": \"stelath_bonus\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 50 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 50, "custom_name": "{\"text\": \"agro\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 51 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 51, "custom_name": "{\"text\": \"footsteps\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 52 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 52, "custom_name": "{\"text\": \"hearts\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 53 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 53, "custom_name": "{\"text\": \"nametag\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 105 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 105, "custom_name": "{\"text\": \"less_hearts\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 106 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 106, "custom_name": "{\"text\": \"longmob_aggro\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 107 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 107, "custom_name": "{\"text\": \"no_nametag\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 108 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 108, "custom_name": "{\"text\": \"silent_footsteps\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 66 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 66, "custom_name": "{\"text\": \"block\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 67 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 67, "custom_name": "{\"text\": \"damage\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 68 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 68, "custom_name": "{\"text\": \"fire_res\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 69 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 69, "custom_name": "{\"text\": \"fire_ring\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 70 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 70, "custom_name": "{\"text\": \"rage\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 71 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 71, "custom_name": "{\"text\": \"stone\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 59 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 59, "custom_name": "{\"text\": \"ground_pound\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 60 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 60, "custom_name": "{\"text\": \"hook\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 61 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 61, "custom_name": "{\"text\": \"knockback\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 62 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 62, "custom_name": "{\"text\": \"shield\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 63 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 63, "custom_name": "{\"text\": \"thorns\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 64 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 64, "custom_name": "{\"text\": \"resistance\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 65 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 65, "custom_name": "{\"text\": \"saturation\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 80 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 80, "custom_name": "{\"text\": \"fly\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 81 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 81, "custom_name": "{\"text\": \"lightning\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 82 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 82, "custom_name": "{\"text\": \"slow_fall\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 83 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 83, "custom_name": "{\"text\": \"wither\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 72 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 72, "custom_name": "{\"text\": \"fireball\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 73 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 73, "custom_name": "{\"text\": \"glow\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 74 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 74, "custom_name": "{\"text\": \"ice\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 75 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 75, "custom_name": "{\"text\": \"push\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 76 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 76, "custom_name": "{\"text\": \"glow\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-
-$execute if score @p primary matches 77 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 77, "custom_name": "{\"text\": \"glow_arrrow\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 78 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 78, "custom_name": "{\"text\": \"health\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 79 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 79, "custom_name": "{\"text\": \"pearl\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 109 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 109, "custom_name": "{\"text\": \"gain_enderpearl\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-
-$execute if score @p primary matches 110 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 110, "custom_name": "{\"text\": \"hit_glow\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
-
-$execute if score @p primary matches 111 run data modify storage ui mask insert 0 value {Slot: $(slot)b, id: "minecraft:stick", "components": {"custom_model_data": 111, "custom_name": "{\"text\": \"less_hearts\", \"color\": \"gold\", \"italic\": false}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+summon item_display ~-0 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":1}}}
+summon item_display ~-1 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":2}}}  
+summon item_display ~-2 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":3}}}  
+
+summon item_display ~-9 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":10}}} 
+summon item_display ~-10 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":11}}}
+summon item_display ~-11 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":12}}}
+summon item_display ~-0 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":13}}}
+summon item_display ~-1 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":14}}}
+summon item_display ~-2 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":15}}}
+summon item_display ~-3 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":16}}}
+summon item_display ~-4 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":17}}}
+summon item_display ~-5 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":18}}}
+summon item_display ~-6 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":19}}}
+summon item_display ~-7 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":20}}}
+summon item_display ~-8 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":21}}}
+summon item_display ~-9 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":22}}}
+summon item_display ~-10 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":23}}}
+summon item_display ~-11 ~1 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":24}}}
+summon item_display ~-0 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":25}}}
+summon item_display ~-1 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":26}}}
+summon item_display ~-2 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":27}}}
+summon item_display ~-3 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":28}}}
+summon item_display ~-4 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":29}}}
+summon item_display ~-5 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":30}}}
+summon item_display ~-6 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":31}}}
+summon item_display ~-7 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":32}}}
+summon item_display ~-8 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":33}}}
+summon item_display ~-9 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":34}}}
+summon item_display ~-10 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":35}}}
+summon item_display ~-11 ~2 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":36}}}
+summon item_display ~-0 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":37}}}
+summon item_display ~-1 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":38}}}
+summon item_display ~-2 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":39}}}
+summon item_display ~-3 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":40}}}
+summon item_display ~-4 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":41}}}
+summon item_display ~-5 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":42}}}
+summon item_display ~-6 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":43}}}
+summon item_display ~-7 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":44}}}
+summon item_display ~-8 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":45}}}
+summon item_display ~-9 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":46}}}
+summon item_display ~-10 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":47}}}
+summon item_display ~-11 ~3 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":48}}}
+summon item_display ~-0 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":49}}}
+summon item_display ~-1 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":50}}}
+summon item_display ~-2 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":51}}}
+summon item_display ~-3 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":52}}}
+summon item_display ~-4 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":53}}}
+summon item_display ~-5 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":54}}}
+summon item_display ~-6 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":55}}}
+summon item_display ~-7 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":56}}}
+summon item_display ~-8 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":57}}}
+summon item_display ~-9 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":58}}}
+summon item_display ~-10 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":59}}}
+summon item_display ~-11 ~4 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":60}}}
+summon item_display ~-0 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":61}}}
+summon item_display ~-1 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":62}}}
+summon item_display ~-2 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":63}}}
+summon item_display ~-3 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":64}}}
+summon item_display ~-4 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":65}}}
+summon item_display ~-5 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":66}}}
+summon item_display ~-6 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":67}}}
+summon item_display ~-7 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":68}}}
+summon item_display ~-8 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":69}}}
+summon item_display ~-9 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":70}}}
+summon item_display ~-10 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":71}}}
+summon item_display ~-11 ~5 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":72}}}
+summon item_display ~-0 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":73}}}
+summon item_display ~-1 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":74}}}
+summon item_display ~-2 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":75}}}
+summon item_display ~-3 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":76}}}
+summon item_display ~-4 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":77}}}
+summon item_display ~-5 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":78}}}
+summon item_display ~-6 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":79}}}
+summon item_display ~-7 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":80}}}
+summon item_display ~-8 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":81}}}
+summon item_display ~-9 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":82}}}
+summon item_display ~-10 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":83}}}
+summon item_display ~-11 ~6 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":84}}}
+summon item_display ~-0 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":85}}}
+summon item_display ~-1 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":86}}}
+summon item_display ~-2 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":87}}}
+summon item_display ~-3 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":88}}}
+summon item_display ~-4 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":89}}}
+summon item_display ~-5 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":90}}}
+summon item_display ~-6 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":91}}}
+summon item_display ~-7 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":92}}}
+summon item_display ~-8 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":93}}}
+summon item_display ~-9 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":94}}}
+summon item_display ~-10 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":95}}}
+summon item_display ~-11 ~7 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":96}}}
+summon item_display ~-0 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":97}}}
+summon item_display ~-1 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":98}}}
+summon item_display ~-2 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":99}}}
+summon item_display ~-3 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":100}}}
+summon item_display ~-4 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":101}}}
+summon item_display ~-5 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":102}}}
+summon item_display ~-6 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":103}}}
+summon item_display ~-7 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":104}}}
+summon item_display ~-8 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":105}}}
+summon item_display ~-9 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":106}}}
+summon item_display ~-10 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":107}}}
+summon item_display ~-11 ~8 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":108}}}
+summon item_display ~-0 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":109}}}
+summon item_display ~-1 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":110}}}
+summon item_display ~-2 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":111}}}
+summon item_display ~-3 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":112}}}
+summon item_display ~-4 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":113}}}
+summon item_display ~-5 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":114}}}
+summon item_display ~-6 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":115}}}
+summon item_display ~-7 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":116}}}
+summon item_display ~-8 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":117}}}
+summon item_display ~-9 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":118}}}
+summon item_display ~-10 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":119}}}
+summon item_display ~-11 ~9 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":120}}}
+
+summon item_display ~-9 ~10 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":10}}}
+summon item_display ~-10 ~10 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":11}}}
+summon item_display ~-11 ~10 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":12}}}
+summon item_display ~-0 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":13}}}
+summon item_display ~-1 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":14}}}
+summon item_display ~-2 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":15}}}
+summon item_display ~-3 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":16}}}
+summon item_display ~-4 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":17}}}
+summon item_display ~-5 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":18}}}
+summon item_display ~-6 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":19}}}
+summon item_display ~-7 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":20}}}
+summon item_display ~-8 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":21}}}
+summon item_display ~-9 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":22}}}
+summon item_display ~-10 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":23}}}
+summon item_display ~-11 ~11 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":24}}}
+summon item_display ~-0 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":25}}}
+summon item_display ~-1 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":26}}}
+summon item_display ~-2 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":27}}}
+summon item_display ~-3 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":28}}}
+summon item_display ~-4 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":29}}}
+summon item_display ~-5 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":30}}}
+summon item_display ~-6 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":31}}}
+summon item_display ~-7 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":32}}}
+summon item_display ~-8 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":33}}}
+summon item_display ~-9 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":34}}}
+summon item_display ~-10 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":35}}}
+summon item_display ~-11 ~12 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":36}}}
+summon item_display ~-0 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":37}}}
+summon item_display ~-1 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":38}}}
+summon item_display ~-2 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":39}}}
+summon item_display ~-3 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":40}}}
+summon item_display ~-4 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":41}}}
+summon item_display ~-5 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":42}}}
+summon item_display ~-6 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":43}}}
+summon item_display ~-7 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":44}}}
+summon item_display ~-8 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":45}}}
+summon item_display ~-9 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":46}}}
+summon item_display ~-10 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":47}}}
+summon item_display ~-11 ~13 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":48}}}
+summon item_display ~-0 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":49}}}
+summon item_display ~-1 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":50}}}
+summon item_display ~-2 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":51}}}
+summon item_display ~-3 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":52}}}
+summon item_display ~-4 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":53}}}
+summon item_display ~-5 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":54}}}
+summon item_display ~-6 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":55}}}
+summon item_display ~-7 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":56}}}
+summon item_display ~-8 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":57}}}
+summon item_display ~-9 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":58}}}
+summon item_display ~-10 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":59}}}
+summon item_display ~-11 ~14 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":60}}}
+summon item_display ~-0 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":61}}}
+summon item_display ~-1 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":62}}}
+summon item_display ~-2 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":63}}}
+summon item_display ~-3 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":64}}}
+summon item_display ~-4 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":65}}}
+summon item_display ~-5 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":66}}}
+summon item_display ~-6 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":67}}}
+summon item_display ~-7 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":68}}}
+summon item_display ~-8 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":69}}}
+summon item_display ~-9 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":70}}}
+summon item_display ~-10 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":71}}}
+summon item_display ~-11 ~15 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":72}}}
+summon item_display ~-0 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":73}}}
+summon item_display ~-1 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":74}}}
+summon item_display ~-2 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":75}}}
+summon item_display ~-3 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":76}}}
+summon item_display ~-4 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":77}}}
+summon item_display ~-5 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":78}}}
+summon item_display ~-6 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":79}}}
+summon item_display ~-7 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":80}}}
+summon item_display ~-8 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":81}}}
+summon item_display ~-9 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":82}}}
+summon item_display ~-10 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":83}}}
+summon item_display ~-11 ~16 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":84}}}
+summon item_display ~-0 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":85}}}
+summon item_display ~-1 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":86}}}
+summon item_display ~-2 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":87}}}
+summon item_display ~-3 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":88}}}
+summon item_display ~-4 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":89}}}
+summon item_display ~-5 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":90}}}
+summon item_display ~-6 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":91}}}
+summon item_display ~-7 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":92}}}
+summon item_display ~-8 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":93}}}
+summon item_display ~-9 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":94}}}
+summon item_display ~-10 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":95}}}
+summon item_display ~-11 ~17 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":96}}}
+summon item_display ~-0 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":97}}}
+summon item_display ~-1 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":98}}}
+summon item_display ~-2 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":99}}}
+summon item_display ~-3 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":100}}}
+summon item_display ~-4 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":101}}}
+summon item_display ~-5 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":102}}}
+summon item_display ~-6 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":103}}}
+summon item_display ~-7 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":104}}}
+summon item_display ~-8 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":105}}}
+summon item_display ~-9 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":106}}}
+summon item_display ~-10 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":107}}}
+summon item_display ~-11 ~18 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":108}}}
+summon item_display ~-0 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":109}}}
+summon item_display ~-1 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":110}}}
+summon item_display ~-2 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":111}}}
+summon item_display ~-3 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":112}}}
+summon item_display ~-4 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":113}}}
+summon item_display ~-5 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":114}}}
+summon item_display ~-6 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":115}}}
+summon item_display ~-7 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":116}}}
+summon item_display ~-8 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":117}}}
+summon item_display ~-9 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":118}}}
+summon item_display ~-10 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":119}}}
+summon item_display ~-11 ~19 ~ {item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_model_data":120}}}
