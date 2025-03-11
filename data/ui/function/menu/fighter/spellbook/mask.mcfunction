@@ -1,6 +1,4 @@
-data modify storage ui mask set value [{Slot:0b,id:"minecraft:barrier","components":{"custom_name": "{\"text\": \"Back\", \"color\": \"red\", \"italic\": false}","minecraft:custom_model_data": 4, "minecraft:custom_data":{ui_item:{cmd:"function ui:menu/main/root/open"}}}}]
-
-
+data modify storage ui mask set value [{Slot:0b,id:"minecraft:barrier","components":{"custom_name": "{\"text\": \"Back\", \"color\": \"red\", \"italic\": false}","minecraft:custom_model_data": 4, "minecraft:custom_data":{ui_item:{cmd:"function ui:menu/main/root/open"}}}}] 
 
 execute if entity @p[tag=ddamgemobs] run data modify storage ui mask insert 0 value {Slot: 18b, id: "minecraft:stick", "components": {"custom_model_data": 72, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you deal double damage to hostile mobs\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Damage to mobs\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
