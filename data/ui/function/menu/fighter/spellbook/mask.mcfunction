@@ -36,13 +36,13 @@ execute if entity @p[tag=speedboost] run data modify storage ui mask insert 0 va
 
 execute if entity @p[tag=!speedboost] run data modify storage ui mask insert 0 value {Slot: 26b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 80, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"Swiftness\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=haste] run data modify storage ui mask insert 0 value {Slot: 9b, id:"minecraft:stick", "components": {"custom_model_data": 81, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you have permanent haste 1\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Haste\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+data modify storage ui mask insert 0 value {Slot: 9b, id:"minecraft:stick", "components": {"custom_model_data": 81, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you have permanent haste 1\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Haste\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=hearts] run data modify storage ui mask insert 0 value {Slot: 10b, id:"minecraft:stick", "components": {"custom_model_data": 82, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you gain 4 hearts\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Health increase\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+data modify storage ui mask insert 0 value {Slot: 10b, id:"minecraft:stick", "components": {"custom_model_data": 82, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you gain 4 hearts\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Health increase\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=speed] run data modify storage ui mask insert 0 value {Slot: 11b, id:"minecraft:stick", "components": {"custom_model_data": 83, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you have permanent speed 1\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Speed\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+data modify storage ui mask insert 0 value {Slot: 11b, id:"minecraft:stick", "components": {"custom_model_data": 83, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you have permanent speed 1\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Speed\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=strength] run data modify storage ui mask insert 0 value {Slot: 12b, id:"minecraft:stick", "components": {"custom_model_data": 84, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you have permanent strength 1\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Strength\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+data modify storage ui mask insert 0 value {Slot: 12b, id:"minecraft:stick", "components": {"custom_model_data": 84, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you have permanent strength 1\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Strength\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 
 
