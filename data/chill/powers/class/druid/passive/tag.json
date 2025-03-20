@@ -7,15 +7,15 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove animal_control"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove bone_meal"
         },
         {
             "type": "origins:execute_command",
             "command": "tag @s remove freeze"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove animal_control"
         },
         {
             "type": "origins:execute_command",
@@ -27,15 +27,11 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove poison"
-        },
-        {
-            "type": "origins:execute_command",
             "command": "tag @s remove arrows"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove wall_climb"
+            "command": "tag @s remove poison"
         },
         {
             "type": "origins:execute_command",
@@ -43,11 +39,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove vegetarian"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove health"
+            "command": "tag @s remove wall_climb"
         },
         {
             "type": "origins:execute_command",
@@ -56,6 +48,14 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove heal"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove health"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove vegetarian"
         },
         {
             "type": "origins:execute_command",

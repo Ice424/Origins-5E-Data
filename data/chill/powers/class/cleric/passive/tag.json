@@ -7,6 +7,10 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove death"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove luck"
         },
         {
@@ -15,23 +19,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove death"
-        },
-        {
-            "type": "origins:execute_command",
             "command": "tag @s remove summon"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove lifesteal"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove hunger"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove teleport"
         },
         {
             "type": "origins:execute_command",
@@ -39,11 +27,23 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove health"
+            "command": "tag @s remove hunger"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove lifesteal"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove teleport"
         },
         {
             "type": "origins:execute_command",
             "command": "tag @s remove heal_self"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove health"
         },
         {
             "type": "origins:execute_command",

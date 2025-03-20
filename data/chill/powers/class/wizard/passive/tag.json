@@ -7,15 +7,7 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove slow_fall"
-        },
-        {
-            "type": "origins:execute_command",
             "command": "tag @s remove fly"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove wither"
         },
         {
             "type": "origins:execute_command",
@@ -23,11 +15,11 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove push"
+            "command": "tag @s remove slow_fall"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove glow"
+            "command": "tag @s remove wither"
         },
         {
             "type": "origins:execute_command",
@@ -35,7 +27,19 @@
         },
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove glow"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove ice"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove push"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove glow_arrow"
         },
         {
             "type": "origins:execute_command",
@@ -44,10 +48,6 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove pearl"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove glow_arrow"
         },
         {
             "type": "origins:execute_command",

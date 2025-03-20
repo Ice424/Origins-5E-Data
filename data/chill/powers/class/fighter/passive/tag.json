@@ -7,15 +7,7 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove hotvillage"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove reach"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove speed_upgrade"
+            "command": "tag @s remove arrows"
         },
         {
             "type": "origins:execute_command",
@@ -23,7 +15,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove saturation"
+            "command": "tag @s remove hotvillage"
         },
         {
             "type": "origins:execute_command",
@@ -31,11 +23,19 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove arrows"
+            "command": "tag @s remove powered"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove powered"
+            "command": "tag @s remove reach"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove saturation"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove speed_upgrade"
         },
         {
             "type": "origins:execute_command",
@@ -51,11 +51,11 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove strength"
+            "command": "tag @s remove speed"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove speed"
+            "command": "tag @s remove strength"
         },
         {
             "type": "origins:execute_command",
