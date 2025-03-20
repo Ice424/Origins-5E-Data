@@ -7,10 +7,6 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove death"
-        },
-        {
-            "type": "origins:execute_command",
             "command": "tag @s remove luck"
         },
         {
@@ -19,15 +15,19 @@
         },
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove death"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove summon"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove hunger"
+            "command": "tag @s remove lifesteal"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove lifesteal"
+            "command": "tag @s remove hunger"
         },
         {
             "type": "origins:execute_command",
@@ -48,6 +48,14 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove cleric"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s primary 0"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s seccondary 0"
         }
     ],
     "hidden": true

@@ -3,8 +3,8 @@
     "modifier": {
         "id": "chill:increased_swim_speed",
         "operation": "ADD_MULTIPLIED_BASE",
-        "amount": 1.05
+        "amount": 1.25
     },
     "name": "Swim speed",
-    "description": "5% increase in swim speed"
+    "description": "25% increase in swim speed"
 }

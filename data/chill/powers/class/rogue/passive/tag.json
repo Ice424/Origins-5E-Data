@@ -27,7 +27,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove blindness"
+            "command": "tag @s remove stealth_bonus"
         },
         {
             "type": "origins:execute_command",
@@ -35,19 +35,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove stealth_bonus"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove agro"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove footsteps"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove hearts"
+            "command": "tag @s remove blindness"
         },
         {
             "type": "origins:execute_command",
@@ -55,7 +43,27 @@
         },
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove footsteps"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove agro"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove hearts"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove rogue"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s primary 0"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s seccondary 0"
         }
     ],
     "hidden": true

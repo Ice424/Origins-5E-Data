@@ -3,8 +3,8 @@
     "modifier": {
         "id": "chill:decreased_exhaustion",
         "operation": "apoli:multiply_base_additive",
-        "amount": -0.05
+        "amount": -0.25
     },
     "name": "Hunger loss",
-    "description": "hunger is lost 5% slower"
+    "description": "hunger is lost 25% slower"
 }

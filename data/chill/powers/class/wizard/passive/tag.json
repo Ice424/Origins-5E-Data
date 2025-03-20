@@ -7,11 +7,11 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove fly"
+            "command": "tag @s remove slow_fall"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove slow_fall"
+            "command": "tag @s remove fly"
         },
         {
             "type": "origins:execute_command",
@@ -23,7 +23,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove fireball"
+            "command": "tag @s remove push"
         },
         {
             "type": "origins:execute_command",
@@ -31,15 +31,11 @@
         },
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove fireball"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove ice"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove push"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove glow_arrow"
         },
         {
             "type": "origins:execute_command",
@@ -51,7 +47,19 @@
         },
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove glow_arrow"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove wizard"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s primary 0"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s seccondary 0"
         }
     ],
     "hidden": true

@@ -7,6 +7,18 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove stone"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove fire_ring"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove rage"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove block"
         },
         {
@@ -19,23 +31,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove fire_ring"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove rage"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove stone"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove ground_pound"
-        },
-        {
-            "type": "origins:execute_command",
-            "command": "tag @s remove hook"
+            "command": "tag @s remove thorns"
         },
         {
             "type": "origins:execute_command",
@@ -43,11 +39,15 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove shield"
+            "command": "tag @s remove hook"
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove thorns"
+            "command": "tag @s remove ground_pound"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove shield"
         },
         {
             "type": "origins:execute_command",
@@ -60,6 +60,14 @@
         {
             "type": "origins:execute_command",
             "command": "tag @s remove tank"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s primary 0"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s seccondary 0"
         }
     ],
     "hidden": true
