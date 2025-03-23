@@ -27,5 +27,6 @@
             "amount": -3.5
         }
     },
-    "hidden": true
+	"name": "Shrink",
+	"description": "You shrink a block"
 }

@@ -60,6 +60,14 @@
         {
             "type": "origins:execute_command",
             "command": "scoreboard players set @s seccondary 0"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s slot_3 0"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set @s slot_4 0"
         }
     ],
     "hidden": true

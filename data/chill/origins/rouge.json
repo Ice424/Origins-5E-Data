@@ -1,0 +1,12 @@
+{
+    "powers": [
+        "chill:class/rogue/passive/hearts",
+        "chill:class/rogue/passive/tag"
+    ],
+    "icon": {
+        "id": "minecraft:wind_charge"
+    },
+    "impact": 3,
+    "name": "Rouge",
+    "description": "The rouge class"
+}

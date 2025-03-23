@@ -6,6 +6,6 @@
         "amount": -2,
         "operation": "add_value"
     },
-    "name": "health",
+    "name": "Health",
     "description": "you have 9 hearts"
 }

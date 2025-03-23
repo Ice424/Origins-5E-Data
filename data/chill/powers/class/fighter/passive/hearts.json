@@ -6,6 +6,6 @@
         "amount": 8,
         "operation": "ADD_VALUE"
     },
-    "name":"Health increase",
+    "name":"Health",
     "description": "you gain 4 hearts"
 }

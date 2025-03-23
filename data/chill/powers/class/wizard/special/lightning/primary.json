@@ -311,5 +311,7 @@
                 }
             ]
         }
-    }
+    },
+    "name": "Summon storms",
+    "description": "Charges lightning strikes that increase in range as you hold sneak & ability key"
 }

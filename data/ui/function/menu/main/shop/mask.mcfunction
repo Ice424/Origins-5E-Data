@@ -58,7 +58,7 @@ execute if score @p slot_1 matches 36 run data modify storage ui mask insert 0 v
 
 execute if score @p slot_1 matches 37 run data modify storage ui mask insert 0 value {Slot: 10b, id: "minecraft:stick", "components": {"custom_model_data": 37, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"25% increase to xp gain\"}"],custom_name:"{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Xp gain\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if score @p slot_1 matches 38 run data modify storage ui mask insert 0 value {Slot: 10b, id: "minecraft:stick", "components": {"custom_model_data": 38, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"xp\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if score @p slot_1 matches 38 run data modify storage ui mask insert 0 value {Slot: 10b, id: "minecraft:stick", "components": {"custom_model_data": 38, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"xp_xp\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 execute if score @p slot_2 matches 39 run data modify storage ui mask insert 0 value {Slot: 12b, id: "minecraft:stick", "components": {"custom_model_data": 39, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"You grow a block taller\"}"],custom_name:"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Grow\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
@@ -74,7 +74,7 @@ execute if score @p slot_2 matches 44 run data modify storage ui mask insert 0 v
 
 execute if score @p slot_2 matches 45 run data modify storage ui mask insert 0 value {Slot: 12b, id: "minecraft:stick", "components": {"custom_model_data": 45, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you can tame all tameable mobs in a 4 block radius\"}"],custom_name:"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Tame\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if score @p slot_3 matches 50 run data modify storage ui mask insert 0 value {Slot: 14b, id: "minecraft:stick", "components": {"custom_model_data": 50, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#fbf236\",\"italic\":false,\"text\":\"secondary\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if score @p slot_3 matches 50 run data modify storage ui mask insert 0 value {Slot: 14b, id: "minecraft:stick", "components": {"custom_model_data": 50, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Heals entities in FOV\"}"],custom_name:"{\"color\":\"#fbf236\",\"italic\":false,\"text\":\"Heal Players\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 execute if score @p slot_3 matches 51 run data modify storage ui mask insert 0 value {Slot: 14b, id: "minecraft:stick", "components": {"custom_model_data": 51, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#fbf236\",\"italic\":false,\"text\":\"hunger\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
@@ -90,7 +90,7 @@ execute if score @p slot_3 matches 63 run data modify storage ui mask insert 0 v
 
 execute if score @p slot_3 matches 64 run data modify storage ui mask insert 0 value {Slot: 14b, id: "minecraft:stick", "components": {"custom_model_data": 64, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#99e550\",\"italic\":false,\"text\":\"wall_climb\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if score @p slot_3 matches 69 run data modify storage ui mask insert 0 value {Slot: 14b, id: "minecraft:stick", "components": {"custom_model_data": 69, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"secondary\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if score @p slot_3 matches 69 run data modify storage ui mask insert 0 value {Slot: 14b, id: "minecraft:stick", "components": {"custom_model_data": 69, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"arrows\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 execute if score @p slot_3 matches 70 run data modify storage ui mask insert 0 value {Slot: 14b, id: "minecraft:stick", "components": {"custom_model_data": 70, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you deal double damage to hostile mobs\"}"],custom_name:"{\"color\":\"#ac3232\",\"italic\":false,\"text\":\"Damage to mobs\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
@@ -174,7 +174,7 @@ execute if score @p slot_4 matches 99 run data modify storage ui mask insert 0 v
 
 execute if score @p slot_4 matches 107 run data modify storage ui mask insert 0 value {Slot: 16b, id: "minecraft:stick", "components": {"custom_model_data": 107, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"fly\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if score @p slot_4 matches 108 run data modify storage ui mask insert 0 value {Slot: 16b, id: "minecraft:stick", "components": {"custom_model_data": 108, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"secondary\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if score @p slot_4 matches 108 run data modify storage ui mask insert 0 value {Slot: 16b, id: "minecraft:stick", "components": {"custom_model_data": 108, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Charges lightning strikes that increase in range as you hold sneak & ability key\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Summon storms\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 execute if score @p slot_4 matches 109 run data modify storage ui mask insert 0 value {Slot: 16b, id: "minecraft:stick", "components": {"custom_model_data": 109, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"slow_fall\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
