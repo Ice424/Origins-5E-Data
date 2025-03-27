@@ -64,6 +64,10 @@
         {
             "type": "origins:execute_command",
             "command": "scoreboard players set @s slot_4 0"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "power clear @s"
         }
     ],
     "hidden": true

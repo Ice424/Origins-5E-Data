@@ -9,7 +9,7 @@ scoreboard objectives add essence dummy
 scoreboard objectives add primary dummy
 scoreboard objectives add secondary dummy
 scoreboard objectives add predicate dummy
-
+scoreboard objectives add activated dummy
 scoreboard objectives add slot_1 dummy
 scoreboard objectives add slot_2 dummy
 scoreboard objectives add slot_3 dummy
