@@ -36,7 +36,7 @@ data modify storage ui mask insert 0 value {Slot: 9b, id:"minecraft:stick", "com
 
 data modify storage ui mask insert 0 value {Slot: 10b, id:"minecraft:stick", "components": {"custom_model_data": 91, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#121212\",\"italic\":false,\"text\":\"footsteps\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-data modify storage ui mask insert 0 value {Slot: 11b, id:"minecraft:stick", "components": {"custom_model_data": 92, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you loose 4 hearts\"}"],custom_name:"{\"color\":\"#121212\",\"italic\":false,\"text\":\"Health\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+data modify storage ui mask insert 0 value {Slot: 11b, id:"minecraft:stick", "components": {"custom_model_data": 92, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#121212\",\"italic\":false,\"text\":\"hearts\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 data modify storage ui mask insert 0 value {Slot: 12b, id:"minecraft:stick", "components": {"custom_model_data": 93, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#121212\",\"italic\":false,\"text\":\"nametag\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
