@@ -1,42 +1,42 @@
 data modify storage ui mask set value [{Slot:0b,id:"minecraft:barrier","components":{"custom_name": "{\"text\":\"Back\",\"color\":\"red\",\"italic\": false}","minecraft:custom_model_data": 4, "minecraft:custom_data":{ui_item:{cmd:"function ui:menu/main/root/open"}}}}] 
 
-execute if entity @p[tag=fly] run data modify storage ui mask insert 0 value {Slot: 18b, id:"minecraft:stick", "components": {"custom_model_data": 107, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"fly\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=fly] run data modify storage ui mask insert 0 value {Slot: 18b, id:"minecraft:stick", "components": {"custom_model_data": 107, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Gain flight for a short amount of time\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Levitation\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=!fly] run data modify storage ui mask insert 0 value {Slot: 18b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 107, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"fly\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=!fly] run data modify storage ui mask insert 0 value {Slot: 18b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 107, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"Levitation\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 execute if entity @p[tag=lightning] run data modify storage ui mask insert 0 value {Slot: 19b, id:"minecraft:stick", "components": {"custom_model_data": 108, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Charges lightning strikes that increase in range as you hold sneak & ability key\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Summon storms\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 execute if entity @p[tag=!lightning] run data modify storage ui mask insert 0 value {Slot: 19b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 108, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"Summon storms\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=slow_fall] run data modify storage ui mask insert 0 value {Slot: 20b, id:"minecraft:stick", "components": {"custom_model_data": 109, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"slow_fall\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=slow_fall] run data modify storage ui mask insert 0 value {Slot: 20b, id:"minecraft:stick", "components": {"custom_model_data": 109, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Crouch mid air gives slow falling\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Glide\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=!slow_fall] run data modify storage ui mask insert 0 value {Slot: 20b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 109, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"slow_fall\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=!slow_fall] run data modify storage ui mask insert 0 value {Slot: 20b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 109, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"Glide\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=wither] run data modify storage ui mask insert 0 value {Slot: 21b, id:"minecraft:stick", "components": {"custom_model_data": 110, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"wither\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=wither] run data modify storage ui mask insert 0 value {Slot: 21b, id:"minecraft:stick", "components": {"custom_model_data": 110, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Inflict wither to mobs within fov\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Deteriorate\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=!wither] run data modify storage ui mask insert 0 value {Slot: 21b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 110, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"wither\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=!wither] run data modify storage ui mask insert 0 value {Slot: 21b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 110, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"Deteriorate\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=fireball] run data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:stick", "components": {"custom_model_data": 111, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"fireball\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=fireball] run data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:stick", "components": {"custom_model_data": 111, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Shoot a fireball that explodes\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Explosive Fireball\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=!fireball] run data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 111, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"fireball\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=!fireball] run data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 111, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"Explosive Fireball\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=glow] run data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:stick", "components": {"custom_model_data": 112, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"glow\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=glow] run data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:stick", "components": {"custom_model_data": 112, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"All mobs within 20 blocks glow\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Wizard's Knowledge\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=!glow] run data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 112, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"glow\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=!glow] run data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 112, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"Wizard's Knowledge\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=ice] run data modify storage ui mask insert 0 value {Slot: 24b, id:"minecraft:stick", "components": {"custom_model_data": 113, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"ice\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=ice] run data modify storage ui mask insert 0 value {Slot: 24b, id:"minecraft:stick", "components": {"custom_model_data": 113, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Temporarily gain frost walker and slow aura\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Ice Walker\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=!ice] run data modify storage ui mask insert 0 value {Slot: 24b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 113, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"ice\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=!ice] run data modify storage ui mask insert 0 value {Slot: 24b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 113, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"Ice Walker\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=push] run data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:stick", "components": {"custom_model_data": 114, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"push\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=push] run data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:stick", "components": {"custom_model_data": 114, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Push all mobs back 5 blocks in a 10 block radius\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Force Push\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=!push] run data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 114, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"push\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=!push] run data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 114, custom_name:"{\"color\":\"gray\",\"italic\":false, \"text\":\"Force Push\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 data modify storage ui mask insert 0 value {Slot: 9b, id:"minecraft:stick", "components": {"custom_model_data": 115, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"All the projectiles you shoot inflict glowing\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Spectral shot\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 data modify storage ui mask insert 0 value {Slot: 10b, id:"minecraft:stick", "components": {"custom_model_data": 116, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"you have 9 hearts\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Health\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-data modify storage ui mask insert 0 value {Slot: 11b, id:"minecraft:stick", "components": {"custom_model_data": 117, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"pearl\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+data modify storage ui mask insert 0 value {Slot: 11b, id:"minecraft:stick", "components": {"custom_model_data": 117, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Crouch to get an ender pearl, 60 secs cooldown\"}"],custom_name:"{\"color\":\"#5b6ee1\",\"italic\":false,\"text\":\"Summon Ender Pearl\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 
 
