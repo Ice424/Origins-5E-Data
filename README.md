@@ -138,7 +138,7 @@
 The people who helped for helping
 
 Gumbo - Power Concepts
-DepoButBad - Textures
+DepoButBad - Textures, Power names & Descriptions
 Box cat - Texture Concepts
 Specific Grass - Texture Concepts
 

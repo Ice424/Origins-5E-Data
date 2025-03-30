@@ -7,6 +7,150 @@
     "entity_action_lost": [
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove fall_dmg_1"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove fall_dmg_3"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove fall_dmg_5"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove fire_dmg_1"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove fire_dmg_3"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove fire_dmg_5"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove health_1"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove health_2"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove health_3"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove health_4"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove health_5"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove hunger_gain_1"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove hunger_gain_3"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove hunger_gain_5"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove hunger_loss_1"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove hunger_loss_3"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove hunger_loss_5"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove luck_1"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove luck_2"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove luck_3"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove luck_4"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove luck_5"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove swim_speed_1"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove swim_speed_3"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove swim_speed_5"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove xp_gain_1"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove xp_gain_3"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove xp_gain_5"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove xp_xp"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove grow"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove inventory"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove jump"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove permeation"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove scan"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove shrink"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @s remove tame"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove arrows"
         },
         {
