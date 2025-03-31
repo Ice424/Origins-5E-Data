@@ -9,6 +9,6 @@ out = []
 for command in commands:
     out.append(f"particle dust{{color: {str(command[2:5]).replace("'", "")}, scale: 1}} {str(command[6:9])[1:-1].replace("'", "").replace(",", "")} 0 -1 0 10 0 force\n", )
 print(out)
-file = open("data\\chill\\function\\test.mcfunction", "w")
+file = open("data\\chill\\function\\test.mcfunction", "w", encoding="UTF-8")
 file.writelines(out)
 file.close()

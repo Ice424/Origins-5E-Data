@@ -6,6 +6,6 @@
         "amount": -4,
         "operation": "ADD_VALUE"
     },
-    "name":"Health",
-    "description": "you loose 4 hearts"
+        "name": "Brittle",
+        "description": "You have 8 hearts"
 }
