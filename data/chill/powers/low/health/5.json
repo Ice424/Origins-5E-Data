@@ -1,11 +1,28 @@
 {
-    "type": "origins:attribute",
-    "modifier": {
-        "id": "chill:max_health_increase",
-        "attribute": "minecraft:generic.max_health",
-        "amount": 5,
-        "operation": "ADD_VALUE"
-    },
+    "type": "origins:multiple",
     "name": "Increased health",
-    "description": "+ 2 hearts and a half"
+    "description": "+ 2 hearts and a half",
+
+    "power": {
+        "type": "origins:attribute",
+        "modifier": {
+            "id": "chill:max_health_increase",
+            "attribute": "minecraft:generic.max_health",
+            "amount": 5,
+            "operation": "ADD_VALUE"
+        }
+    },
+"upgrade": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": [
+            {
+                "type": "origins:execute_command",
+                "command": "tag @s remove health_4"
+            },
+            {
+                "type": "origins:remove_power",
+                "power": "chill:low/health/4"
+            }
+        ]
+    }
 }

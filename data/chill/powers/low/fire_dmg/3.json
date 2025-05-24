@@ -1,13 +1,30 @@
 {
-    "type": "origins:modify_damage_taken",
-    "damage_condition": {
-        "type": "origins:in_tag",
-        "tag": "minecraft:is_fire"
-    },
-    "modifier": {
-        "operation": "apoli:multiply_base_additive",
-        "amount": -0.15
-    },
+    "type": "origins:multiple",
     "name": "Fire damage",
-    "description": "15% less fire damage"
+    "description": "15% less fire damage",
+    "power": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:is_fire"
+        },
+        "modifier": {
+            "operation": "apoli:multiply_base_additive",
+            "amount": -0.15
+        }
+    },
+    "upgrade": {
+        "type": "origins:action_on_callback",
+
+        "entity_action_gained": [
+            {
+                "type": "origins:execute_command",
+                "command": "tag @s remove fire_dmg_1"
+            },
+            {
+                "type": "origins:remove_power",
+                "power": "chill:low/fire_dmg/1"
+            }
+        ]
+    }
 }

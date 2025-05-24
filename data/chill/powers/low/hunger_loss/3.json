@@ -1,10 +1,26 @@
 {
-    "type": "origins:modify_exhaustion",
-    "modifier": {
-        "id": "chill:decreased_exhaustion",
-        "operation": "apoli:multiply_base_additive",
-        "amount": -0.15
-    },
+    "type": "origins:multiple",
     "name": "Hunger loss",
-    "description": "hunger is lost 15% slower"
+    "description": "hunger is lost 15% slower",
+    "power": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "id": "chill:decreased_exhaustion",
+            "operation": "apoli:multiply_base_additive",
+            "amount": -0.15
+        }
+    },
+    "upgrade": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": [
+            {
+                "type": "origins:execute_command",
+                "command": "tag @s remove hunger_loss_1"
+            },
+            {
+                "type": "origins:remove_power",
+                "power": "chill:low/hunger_loss/1"
+            }
+        ]
+    }
 }

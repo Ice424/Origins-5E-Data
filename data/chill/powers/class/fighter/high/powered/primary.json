@@ -22,7 +22,7 @@
                     "id": "minecraft:resistance",
                     "duration": 400,
                     "amplifier": 1,
-                    "show_particles": true,
+                    "show_particles": false,
                     "show_icon": true
                 }
             }

@@ -203,7 +203,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "scoreboard players set @s seccondary 0"
+            "command": "scoreboard players set @s secondary 0"
         },
         {
             "type": "origins:execute_command",

@@ -1,8 +1,26 @@
 {
-    "type": "origins:modify_xp_gain",
-    "modifier": {
-        "operation": "apoli:multiply_base_additive",
-        "amount": 1.15
-    },"name": "Xp gain",
-    "description": "15% increase to xp gain"
+    "type": "origins:multiple",
+    "name": "Xp gain",
+    "description": "15% increase to xp gain",
+    "power": {
+        "type": "origins:modify_xp_gain",
+        "modifier": {
+            "operation": "apoli:multiply_base_additive",
+            "amount": 1.15
+        }
+    },
+    "upgrade": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": [
+            {
+                "type": "origins:execute_command",
+                "command": "tag @s remove xp_gain_1"
+            },
+            {
+                "type": "origins:remove_power",
+                "power": "apoli:xp_gain/1"
+            }
+        ]
+
+    }
 }

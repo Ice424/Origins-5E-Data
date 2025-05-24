@@ -1,15 +1,32 @@
 {
-    "type": "origins:modify_food",
-    "food_modifier": {
-        "id": "chill:increased_food_points",
-        "operation": "apoli:add_base_early",
-        "amount": 6.0
-    },
-    "saturation_modifier": {
-        "id": "chill:increased_saturation_points",
-        "operation": "apoli:add_base_early",
-        "amount": 2
-    },
+    "type": "origins:multiple",
     "name": "Increased food points",
-    "description": "You gain 6 more hunger hunches and 2 more points of saturation"
+    "description": "You gain 6 more hunger hunches and 2 more points of saturation",
+    "power":{
+        "type": "origins:modify_food",
+        "food_modifier": {
+            "id": "chill:increased_food_points",
+            "operation": "apoli:add_base_early",
+            "amount": 6.0
+        },
+        "saturation_modifier": {
+            "id": "chill:increased_saturation_points",
+            "operation": "apoli:add_base_early",
+            "amount": 2
+        }
+    },
+    "upgrade": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": [
+            {
+                "type": "origins:execute_command",
+                "command": "tag @s remove hunger_gain_1"
+            },
+            {
+                "type": "origins:remove_power",
+                "power": "chill:low/hunger_gain/1"
+            }
+        ]
+    }
+
 }
