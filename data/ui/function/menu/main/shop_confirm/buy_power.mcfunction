@@ -15,4 +15,4 @@ execute if score @p cost matches 1 run scoreboard players set @p slot_2 0
 execute if score @p cost matches 1 run scoreboard players set @p slot_3 0
 execute if score @p cost matches 1 run scoreboard players set @p slot_4 0
 
-function ui:menu/main/open_shop
+function ui:menu/main/open_shop_after_buy

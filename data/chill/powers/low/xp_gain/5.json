@@ -18,7 +18,7 @@
             },
             {
                 "type": "origins:remove_power",
-                "power": "apoli:xp_gain/3"
+                "power": "chill:xp_gain/3"
             }
         ]
 
