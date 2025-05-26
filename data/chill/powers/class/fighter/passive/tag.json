@@ -155,7 +155,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove ddamgemobs"
+            "command": "tag @s remove ddamagemobs"
         },
         {
             "type": "origins:execute_command",
