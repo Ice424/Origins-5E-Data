@@ -1,6 +1,6 @@
-data modify storage ui mask set value [{Slot:0b,id:"minecraft:barrier","components":{"custom_name": "{\"text\":\"Back\", \"color\": \"red\", \"italic\": false}","minecraft:custom_model_data": 7, "minecraft:custom_data":{ui_item: {cmd:"function ui:menu/main/shop/open"}}}}, {Slot:2b,id:"minecraft:acacia_boat","components":{"custom_name": "{\"text\":\"\", \"color\": \"red\", \"italic\": false}","minecraft:custom_model_data": 2, "minecraft:custom_data":{ui_item:{empty:1b}}}}]
+data modify storage ui mask set value [{Slot:0b,id:"minecraft:barrier","components":{"custom_name": "{\"text\":\"Back\", \"color\": \"red\", \"italic\": false}","minecraft:custom_model_data": 7, "minecraft:custom_data":{ui_item: {cmd:"function ui:menu/main/shop/open_after_buy"}}}}, {Slot:2b,id:"minecraft:acacia_boat","components":{"custom_name": "{\"text\":\"\", \"color\": \"red\", \"italic\": false}","minecraft:custom_model_data": 2, "minecraft:custom_data":{ui_item:{empty:1b}}}}]
 
-data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:acacia_boat", "components": {"custom_model_data": 4, custom_name:"{\"color\":\"red\",\"italic\":false,\"text\":\"No\"}", "minecraft:custom_data": {ui_item: {cmd: "function ui:menu/main/shop/open"}}}}
+data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:acacia_boat", "components": {"custom_model_data": 4, custom_name:"{\"color\":\"red\",\"italic\":false,\"text\":\"No\"}", "minecraft:custom_data": {ui_item: {cmd: "function ui:menu/main/shop/open_after_buy"}}}}
 
 function ui:menu/main/shop_confirm/active
 
@@ -116,7 +116,7 @@ execute if score @p predicate matches 37 run data modify storage ui mask insert 
 
 execute if score @p predicate matches 37 run data modify storage ui mask insert 0 value {Slot: 21b, id:"minecraft:acacia_boat", "components": {"custom_model_data": 3, custom_name:"{\"color\":\"green\",\"italic\":false,\"text\":\"Yes\"}", "minecraft:custom_data": {ui_item: {cmd: "function ui:menu/main/shop_confirm/buy_power {cost:5,path:\"low/xp_gain/5\",id:xp_gain_5}"}}}}
 
-execute if score @p predicate matches 38 run data modify storage ui mask insert 0 value {Slot: 13b, id: "minecraft:stick", "components": {"custom_model_data": 38, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"none\"}","{\"color\":\"dark_aqua\",\"font\":\"chill:essence\",\"italic\":false,\"text\":\"5 Θ\"}"],custom_name:"{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"xp_xp\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if score @p predicate matches 38 run data modify storage ui mask insert 0 value {Slot: 13b, id: "minecraft:stick", "components": {"custom_model_data": 38, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Gain 20 levels\"}","{\"color\":\"dark_aqua\",\"font\":\"chill:essence\",\"italic\":false,\"text\":\"5 Θ\"}"],custom_name:"{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"XP\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 execute if score @p predicate matches 38 run data modify storage ui mask insert 0 value {Slot: 21b, id:"minecraft:acacia_boat", "components": {"custom_model_data": 3, custom_name:"{\"color\":\"green\",\"italic\":false,\"text\":\"Yes\"}", "minecraft:custom_data": {ui_item: {cmd: "function ui:menu/main/shop_confirm/buy_power {cost:5,path:\"low/xp_/p\",id:xp_xp}"}}}}
 

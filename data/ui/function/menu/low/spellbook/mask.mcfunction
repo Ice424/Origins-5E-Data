@@ -72,6 +72,10 @@ execute if entity @p[tag=xp_gain_5] run data modify storage ui mask insert 0 val
 
 execute if entity @p[tag=!xp_gain_1, tag=!xp_gain_3, tag=!xp_gain_5] run data modify storage ui mask insert 0 value {Slot: 16b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 35, custom_name:"{\"color\":\"dark_gray\",\"italic\":false, \"text\":\"Xp gain\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
+execute if entity @p[tag=xp_xp] run data modify storage ui mask insert 0 value {Slot: 17b, id:"minecraft:stick", "components": {"custom_model_data": 38, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Gain 20 levels\"}"],custom_name:"{\"color\":\"gray\",\"italic\":false,\"text\":\"XP\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+
+execute if entity @p[tag=!xp_xp] run data modify storage ui mask insert 0 value {Slot: 17b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 38, custom_name:"{\"color\":\"dark_gray\",\"italic\":false, \"text\":\"XP\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+
 
 
 

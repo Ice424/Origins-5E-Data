@@ -1,6 +1,6 @@
 data modify storage ui mask set value [{Slot:0b,id:"minecraft:barrier","components":{"custom_name": "{\"text\":\"Back\", \"color\": \"red\", \"italic\": false}","minecraft:custom_model_data": 2, "minecraft:custom_data":{ui_item:{cmd:"function ui:menu/main/root/open"}}}},{Slot:1b,id:"minecraft:barrier","components":{"custom_name": "{\"text\":\"Class Powers\",\"color\":\"blue\",\"italic\": false}", "minecraft:custom_data":{ui_item:{cmd:"function ui:menu/main/open_spellbook"}}}}, {Slot:8b,id:"minecraft:barrier","components":{"custom_name": "{\"text\":\"Low Powers\",\"color\":\"blue\",\"italic\": false}", "minecraft:custom_data":{ui_item:{cmd:"function ui:menu/low/spellbook/open"}}}}] 
 
-execute if entity @p[tag=grow] run data modify storage ui mask insert 0 value {Slot: 9b, id:"minecraft:stick", "components": {"custom_model_data": 39, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"You grow a block taller\"}"],custom_name:"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Grow\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=grow] run data modify storage ui mask insert 0 value {Slot: 9b, id:"minecraft:stick", "components": {"custom_model_data": 39, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"You grow a block taller\"}"],custom_name:"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Grow\"}", "minecraft:custom_data": {ui_item:{cmd:"function ui:menu/main/size_toggle {predicate:39}"}}}}
 
 execute if entity @p[tag=!grow] run data modify storage ui mask insert 0 value {Slot: 9b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 39, custom_name:"{\"color\":\"dark_gray\",\"italic\":false, \"text\":\"Grow\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
@@ -20,7 +20,7 @@ execute if entity @p[tag=scan] run data modify storage ui mask insert 0 value {S
 
 execute if entity @p[tag=!scan] run data modify storage ui mask insert 0 value {Slot: 13b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 43, custom_name:"{\"color\":\"dark_gray\",\"italic\":false, \"text\":\"Scan\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=shrink] run data modify storage ui mask insert 0 value {Slot: 14b, id:"minecraft:stick", "components": {"custom_model_data": 44, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"You shrink a block\"}"],custom_name:"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Shrink\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=shrink] run data modify storage ui mask insert 0 value {Slot: 14b, id:"minecraft:stick", "components": {"custom_model_data": 44, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"You shrink a block\"}"],custom_name:"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Shrink\"}", "minecraft:custom_data": {ui_item:{cmd:"function ui:menu/main/size_toggle {predicate:44}"}}}}
 
 execute if entity @p[tag=!shrink] run data modify storage ui mask insert 0 value {Slot: 14b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 44, custom_name:"{\"color\":\"dark_gray\",\"italic\":false, \"text\":\"Shrink\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
