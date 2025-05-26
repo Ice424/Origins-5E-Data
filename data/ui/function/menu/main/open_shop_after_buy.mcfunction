@@ -7,6 +7,7 @@ execute if score @p slot_1 matches 0 run function ui:menu/main/low_slots {slot:s
 execute if score @p slot_2 matches 0 run function ui:menu/main/high_slots {slot:slot_2}
 
 execute if entity @p[tag=fighter] if score @p slot_3 matches 0 run function ui:menu/fighter/high_slots {slot:slot_3}
+execute if entity @p[tag=fighter] if score @p slot_4 matches 0 run scoreboard players set @p slot_4 38
 
 execute if entity @p[tag=wizard] if score @p slot_3 matches 0 run function ui:menu/wizard/high_slots {slot:slot_3}
 execute if entity @p[tag=wizard] if score @p slot_4 matches 0 run function ui:menu/wizard/special_slots {slot:slot_4}

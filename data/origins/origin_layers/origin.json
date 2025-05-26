@@ -6,7 +6,7 @@
     "chill:fighter",
     "chill:tank",
     "chill:wizard",
-    "chill:rouge"
+    "chill:rogue"
   ],
   "gui_title": {
     "choose_origin": "Choose a class",
