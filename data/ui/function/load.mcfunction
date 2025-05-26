@@ -15,6 +15,8 @@ scoreboard objectives add slot_2 dummy
 scoreboard objectives add slot_3 dummy
 scoreboard objectives add slot_4 dummy
 
+scoreboard objectives add size dummy
+
 
 
 
