@@ -137,7 +137,7 @@
 ## Thanks to
 The people who helped for helping
 
-Box cat - Textures, Texture concepts
+### Box cat - Textures, Texture concepts
 
 DepoButBad - Textures, Power names & Descriptions
 Gumbo - Power Concepts

@@ -18,7 +18,7 @@
             },
             {
                 "type": "origins:remove_power",
-                "power": "chill:xp_gain/1"
+                "power": "chill:low/xp_gain/1"
             }
         ]
 

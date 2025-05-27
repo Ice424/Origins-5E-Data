@@ -1,0 +1,59 @@
+{
+    "name": "Rejuvenation spell",
+    "description": "Crouching for 10 seconds resorts hunger and hearts and gives extra hearts",
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 5,
+        "hud_render": {
+            "should_render": true,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_resource",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        }
+    },
+    "build": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:sneaking"
+        },
+        "falling_action": {
+            "type": "origins:change_resource",
+            "operation": "set",
+            "resource": "*:*_resource",
+            "change": 0
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "change": 1,
+            "operation": "add",
+            "resource": "*:*_resource"
+        },
+        "interval": 20
+    },
+    "heal": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": "==",
+            "compare_to": 5
+        },
+        "interval": 40,
+        "type": "origins:action_over_time",
+        "entity_action": [
+            {
+                "type": "origins:heal",
+                "amount": 1
+            },
+            {
+                "type": "origins:feed",
+                "nutrition": 1,
+                "saturation": 1
+            }
+        ]
+    }
+}

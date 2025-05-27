@@ -1,6 +1,6 @@
 {
     "powers": [
-        "chill:class/wizard/passive/glow",
+        "chill:class/wizard/passive/glow_arrow",
         "chill:class/wizard/passive/health",
         "chill:class/wizard/passive/tag"
     ],
