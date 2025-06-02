@@ -14,7 +14,7 @@
                 "comparison": ">",
                 "compare_to": 0
             },
-            "sprite_location": "chill:textures/bars.png",
+            "sprite_location": "chill:textures/item/bars/cleric_bars.png",
             "bar_index": 1
         }
     },

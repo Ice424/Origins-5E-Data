@@ -1,9 +1,12 @@
 {
     "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
     "cooldown": 100,
     "hud_render": {
         "should_render": true,
-        "sprite_location": "chill:textures/bars.png",
+        "sprite_location": "chill:textures/item/bars/cleric_bars.png",
         "bar_index": 2
     },
     "entity_action": {

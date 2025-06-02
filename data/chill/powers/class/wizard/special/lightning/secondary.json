@@ -42,7 +42,7 @@
                 "comparison": ">",
                 "compare_to": 0
             },
-            "sprite_location": "chill:textures/bars.png"
+            "sprite_location": "chill:textures/item/bars/wizard_bars.png"
         }
     },
     "on_hit": {
@@ -72,7 +72,7 @@
                 "comparison": ">",
                 "compare_to": 0
             },
-            "sprite_location": "chill:textures/bars.png"
+            "sprite_location": "chill:textures/item/bars/wizard_bars.png"
         }
     },
     "cooling": {
@@ -129,7 +129,7 @@
                     },
                     "action": {
                         "type": "origins:execute_command",
-                        "command": "function chill:class/wizard/30"
+                        "command": "function chill:wizard/lightning/30"
                     }
                 },
                 {
@@ -141,7 +141,7 @@
                     },
                     "action": {
                         "type": "origins:execute_command",
-                        "command": "function chill:class/wizard/15"
+                        "command": "function chill:wizard/lightning/15"
                     }
                 },
                 {
@@ -153,7 +153,7 @@
                     },
                     "action": {
                         "type": "origins:execute_command",
-                        "command": "function chill:class/wizard/5"
+                        "command": "function chill:wizard/lightning/5"
                     }
                 },
                 {
@@ -162,7 +162,7 @@
                     },
                     "action": {
                         "type": "origins:execute_command",
-                        "command": "function chill:class/wizard/0"
+                        "command": "function chill:wizard/lightning/0"
                     }
                 }
             ]

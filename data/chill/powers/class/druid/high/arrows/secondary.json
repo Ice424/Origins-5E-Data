@@ -1,0 +1,117 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "entity_action": [
+    {
+      "type": "origins:fire_projectile",
+      "entity_type": "minecraft:arrow",
+      "count": 1,
+      "divergence": 0,
+      "tag": "{Potion: \"minecraft:poison\", pickup:0b}",
+      "projectile_action": {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "z": -2
+      }
+    },
+    {
+      "type": "origins:fire_projectile",
+      "entity_type": "minecraft:arrow",
+      "count": 1,
+      "divergence": 0,
+      "tag": "{Potion: \"minecraft:poison\", pickup:0b}",
+      "projectile_action": {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "z": 2
+      }
+    },
+    {
+      "type": "origins:fire_projectile",
+      "entity_type": "minecraft:arrow",
+      "count": 1,
+      "divergence": 0,
+      "tag": "{Potion: \"minecraft:poison\", pickup:0b}",
+      "projectile_action": {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "x": -2
+      }
+    },
+    {
+      "type": "origins:fire_projectile",
+      "entity_type": "minecraft:arrow",
+      "count": 1,
+      "divergence": 0,
+      "tag": "{Potion: \"minecraft:poison\", pickup:0b}",
+      "projectile_action": {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "x": 2
+      }
+    },
+    {
+      "type": "origins:fire_projectile",
+      "entity_type": "minecraft:arrow",
+      "count": 1,
+      "divergence": 0,
+      "tag": "{Potion: \"minecraft:poison\", pickup:0b}",
+      "projectile_action": {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "z": -2,
+        "x": -2
+      }
+    },
+    {
+      "type": "origins:fire_projectile",
+      "entity_type": "minecraft:arrow",
+      "count": 1,
+      "divergence": 0,
+      "tag": "{Potion: \"minecraft:poison\", pickup:0b}",
+      "projectile_action": {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "z": 2,
+        "x": 2
+      }
+    },
+    {
+      "type": "origins:fire_projectile",
+      "entity_type": "minecraft:arrow",
+      "count": 1,
+      "divergence": 0,
+      "tag": "{Potion: \"minecraft:poison\", pickup:0b}",
+      "projectile_action": {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "x": -2,
+        "z": 2
+
+      }
+    },
+    {
+      "type": "origins:fire_projectile",
+      "entity_type": "minecraft:arrow",
+      "count": 1,
+      "divergence": 0,
+      "tag": "{Potion: \"minecraft:poison\", pickup:0b}",
+      "projectile_action": {
+        "type": "origins:add_velocity",
+        "space": "local",
+        "x": 2,
+        "z" : -2
+      }
+    }
+  ],
+  "cooldown": 100,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 2
+  },
+  
+    "name": "Ring of Arrows",
+    "description": "Use ability to attempt to shoot 8 arrows 360 degrees (arrows have scuffed physics)"
+}

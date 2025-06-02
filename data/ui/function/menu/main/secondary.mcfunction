@@ -20,6 +20,12 @@ execute if score @p predicate matches 50 run power grant @p chill:class/cleric/h
 execute if score @p predicate matches 53 run scoreboard players set @p secondary 53
 execute if score @p predicate matches 53 run power grant @p chill:class/cleric/high/teleport/secondary chill:secondary
     
+execute if score @p predicate matches 61 run scoreboard players set @p secondary 61
+execute if score @p predicate matches 61 run power grant @p chill:class/druid/high/arrows/secondary chill:secondary
+    
+execute if score @p predicate matches 62 run scoreboard players set @p secondary 62
+execute if score @p predicate matches 62 run power grant @p chill:class/druid/high/poison/secondary chill:secondary
+    
 execute if score @p predicate matches 69 run scoreboard players set @p secondary 69
 execute if score @p predicate matches 69 run power grant @p chill:class/fighter/high/arrows/secondary chill:secondary
     

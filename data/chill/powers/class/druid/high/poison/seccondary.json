@@ -1,0 +1,51 @@
+{
+  "name": "Decay",
+  "description": "Give people hunger and poison within 8 blocks far",
+  "type": "origins:active_self",
+  "cooldown": 500,
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "chill:textures/item/bars/druid_bars.png",
+    "bar_index": 0
+  },
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 8,
+    "shape": "sphere",
+    "bientity_action": [
+      {
+        "type": "origins:target_action",
+        "action": [
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "id": "minecraft:poison",
+              "duration": 200,
+              "amplifier": 1,
+              "show_particles": true
+            }
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "id": "minecraft:hunger",
+              "duration": 200,
+              "amplifier": 2,
+              "show_particles": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "origins:actor_action",
+        "action": {
+          "type": "origins:execute_command",
+          "command": "function chill:druid/poison/particle"
+        }
+      }
+    ]
+  }
+}
