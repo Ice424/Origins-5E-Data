@@ -1,6 +1,5 @@
 {
   "values": [
-    "ui:tick",
-    "chaos:tick"
+    "ui:tick"
   ]
 }
