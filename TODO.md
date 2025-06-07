@@ -1,16 +1,4 @@
 ##TO DO
-druid underwater: Wild Shape: Fish
-Can breathe underwater
-
-druid wall_climb: Wall Climb
-Create vines that help you climb walls
-
-druid animal: Nature's Guidance
-Animals follow you
-
-druid heal: Nature's Healing
-Standing in tall grass and flowers heal
-
 druid health: Brittle
 You have 9 hearts
 

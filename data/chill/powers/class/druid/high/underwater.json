@@ -1,0 +1,34 @@
+{
+  "name": "Wild Shape: Fish",
+  "description": "Can breathe underwater",
+  "type": "origins:multiple",
+  "fins": {
+     "type": "origins:modify_swim_speed",
+    "modifier": {
+        "id": "chill:increased_swim_speed",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 1.30
+    }
+  },
+  "water_vision": {
+    "type": "origins:night_vision",
+    "strength": 0.5,
+    "condition": {
+      "type": "origins:submerged_in",
+      "fluid": "minecraft:water"
+    }
+  },
+  "gills": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      
+        "type": "origins:gain_air",
+        "value": 30
+      
+    },
+    "condition": {
+      "type": "origins:submerged_in",
+      "fluid": "minecraft:water"
+    }
+  }
+}

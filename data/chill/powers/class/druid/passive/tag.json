@@ -187,10 +187,6 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove animal"
-        },
-        {
-            "type": "origins:execute_command",
             "command": "tag @s remove heal"
         },
         {

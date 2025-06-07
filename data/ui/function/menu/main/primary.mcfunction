@@ -26,19 +26,19 @@ execute if score @p predicate matches 61 run power grant @p chill:class/druid/hi
 execute if score @p predicate matches 62 run scoreboard players set @p primary 62
 execute if score @p predicate matches 62 run power grant @p chill:class/druid/high/poison/primary chill:primary
     
-execute if score @p predicate matches 69 run scoreboard players set @p primary 69
-execute if score @p predicate matches 69 run power grant @p chill:class/fighter/high/arrows/primary chill:primary
+execute if score @p predicate matches 68 run scoreboard players set @p primary 68
+execute if score @p predicate matches 68 run power grant @p chill:class/fighter/high/arrows/primary chill:primary
+    
+execute if score @p predicate matches 71 run scoreboard players set @p primary 71
+execute if score @p predicate matches 71 run power grant @p chill:class/fighter/high/overheal/primary chill:primary
     
 execute if score @p predicate matches 72 run scoreboard players set @p primary 72
-execute if score @p predicate matches 72 run power grant @p chill:class/fighter/high/overheal/primary chill:primary
+execute if score @p predicate matches 72 run power grant @p chill:class/fighter/high/powered/primary chill:primary
     
-execute if score @p predicate matches 73 run scoreboard players set @p primary 73
-execute if score @p predicate matches 73 run power grant @p chill:class/fighter/high/powered/primary chill:primary
+execute if score @p predicate matches 76 run scoreboard players set @p primary 76
+execute if score @p predicate matches 76 run power grant @p chill:class/fighter/high/speedboost/primary chill:primary
     
-execute if score @p predicate matches 77 run scoreboard players set @p primary 77
-execute if score @p predicate matches 77 run power grant @p chill:class/fighter/high/speedboost/primary chill:primary
-    
-execute if score @p predicate matches 108 run scoreboard players set @p primary 108
-execute if score @p predicate matches 108 run power grant @p chill:class/wizard/special/lightning/primary chill:primary
+execute if score @p predicate matches 107 run scoreboard players set @p primary 107
+execute if score @p predicate matches 107 run power grant @p chill:class/wizard/special/lightning/primary chill:primary
     
 function ui:menu/main/open_spellbook
