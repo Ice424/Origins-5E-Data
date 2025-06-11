@@ -1,6 +1,9 @@
 {
     "powers": [
-        "chill:class/druid/passive/tag"
+        "chill:class/druid/passive/tag",
+        "chill:class/druid/passive/heal",
+        "chill:class/druid/passive/health",
+        "chill:class/druid/passive/vegetarian"
     ],
     "icon": {
         "id": "minecraft:small_dripleaf"

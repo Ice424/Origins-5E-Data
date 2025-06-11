@@ -1,6 +1,7 @@
 {
     "powers": [
         "chill:class/cleric/passive/health",
+        "chill:class/cleric/passive/heal_self",
         "chill:class/cleric/passive/tag"
     ],
     "icon": {
