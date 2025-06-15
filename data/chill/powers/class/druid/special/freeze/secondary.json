@@ -1,0 +1,74 @@
+{
+    "name": "Freeze Life",
+    "description": "Stop all mobs movement around you",
+    "type": "origins:multiple",
+    "action": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "chill:textures/item/bars/druid_bars.png",
+            "bar_index": 1
+        },
+        "cooldown": 300,
+        "entity_action": {
+            "type": "origins:area_of_effect",
+            "radius": 16,
+            "bientity_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:execute_command",
+                                    "command": "function chill:druid/freeze/freeze"
+                                },
+                                {
+                                    "type": "origins:delay",
+                                    "ticks": 60,
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "function chill:druid/freeze/unfreeze"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "origins:actor_action",
+                        "action": {
+                            "type": "origins:execute_command",
+                            "command": "function chill:druid/freeze/freeze_particle"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "callback": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard objectives add freeze.x dummy"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard objectives add freeze.y dummy"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard objectives add freeze.z dummy"
+                }
+            ]
+        },
+        "execute_chosen_when_orb": true
+    }
+}

@@ -1,7 +1,4 @@
 ##TO DO
-druid freeze: Freeze Life
-Stop all mobs movement around you
-
 druid skulk: Fungi's Onslaught
 Spread sculk to deal damage
 

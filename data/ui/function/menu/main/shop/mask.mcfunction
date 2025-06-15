@@ -1,6 +1,6 @@
 data modify storage ui mask set value [{Slot:0b,id:"minecraft:barrier","components":{"custom_model_data": 6, "custom_name": "{\"text\": \"Back\", \"color\": \"red\",\"italic\": false}","minecraft:custom_data":{ui_item:{cmd:"function ui:menu/main/shop/close_shop"}}}}]
 
-data modify storage ui mask insert 0 value {Slot: 22b, id: "minecraft:barrier", "components": {"lore:["{\"color\":\"dark_aqua\",\"font\":\"chill:essence\",\"italic\":false,\"text\":\"Re-roll slots 10Θ\"}"],custom_name:"{\"color\":\"gray\",\"italic\":false,\"text\":\"Refresh\"}", "minecraft:custom_data": {ui_item: {cmd: "function ui:menu/main/reset_slots"}}}}
+data modify storage ui mask insert 0 value {Slot: 22b, id: "minecraft:barrier", "components": {"lore":["{\"color\":\"dark_aqua\",\"font\":\"chill:essence\",\"italic\":false,\"text\":\"Re-roll slots 10Θ\"}"],custom_name:"{\"color\":\"gray\",\"italic\":false,\"text\":\"Refresh\"}", "minecraft:custom_data": {ui_item: {cmd: "function ui:menu/main/reset_slots"}}}}
 
 
 
