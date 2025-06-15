@@ -10,23 +10,23 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 }
             ]
         },
@@ -43,11 +43,11 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "team create druid  @s"
+                    "command": "team create cleric  @s"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "team join druid @s"
+                    "command": "team join cleric @s"
                 }
             ]
         },
@@ -58,5 +58,5 @@
         "execute_chosen_when_orb": true
     },
     "name": "Summon the dead",
-    "description": "summon 5 zombies to assist you in battle they are friendly towards druids"
+    "description": "summon 5 zombies to assist you in battle they are friendly towards clerics"
 }

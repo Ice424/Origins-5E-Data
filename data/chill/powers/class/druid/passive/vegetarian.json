@@ -13,9 +13,6 @@
                         "ingredient": { 
                             "tag": "origins:meat"
                         }
-                    },
-                    {
-                        "type": "origins:meat"
                     }
                 ]
             },

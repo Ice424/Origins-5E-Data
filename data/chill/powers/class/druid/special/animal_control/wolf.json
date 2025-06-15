@@ -1,0 +1,24 @@
+{
+    "type": "origins:action_over_time",
+    "condition": {
+        "inverted": true,
+        "type": "origins:riding"
+    },
+    "rising_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scoreboard players remove @p[tag=druid, limit=1, sort=nearest] tamed_mobs 1"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "data modify entity @s Owner set value [I;0,0,0,0]"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "kill @s"
+            }
+        ]
+    }
+}

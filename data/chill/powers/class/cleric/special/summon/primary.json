@@ -10,23 +10,23 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "summon zombie ~ ~ ~ {Team:druid}"
+                    "command": "summon zombie ~ ~ ~ {Team:cleric}"
                 }
             ]
         },
@@ -36,18 +36,18 @@
             "bar_index": 20
         }
     },
-    "callback": {
+     "callback": {
         "type": "origins:action_on_callback",
         "entity_action_gained": {
             "type": "origins:and",
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "team add druid \"druid\""
+                    "command": "team add cleric \"cleric\""
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "team join druid @s"
+                    "command": "team join cleric @s"
                 }
             ]
         },
@@ -58,5 +58,5 @@
         "execute_chosen_when_orb": true
     },
     "name": "Summon the dead",
-    "description": "summon 5 zombies to assist you in battle they are friendly towards druids"
+    "description": "summon 5 zombies to assist you in battle they are friendly towards clerics"
 }

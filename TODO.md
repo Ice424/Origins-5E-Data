@@ -1,16 +1,4 @@
 ##TO DO
-druid health: Brittle
-You have 9 hearts
-
-druid vegetarian: Vegetarian
-Can't eat meant
-
-druid animal_control: Nature's Offence
-Passive mobs will attack hostile mob if you are nearby
-
-druid bone_meal: Earth's gift
-Get free bone meal
-
 druid freeze: Freeze Life
 Stop all mobs movement around you
 
