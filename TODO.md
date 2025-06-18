@@ -1,7 +1,4 @@
 ##TO DO
-druid skulk: Fungi's Onslaught
-Spread sculk to deal damage
-
 druid speed: Environmental Affinity
 You are faster when in water or on a grass block
 

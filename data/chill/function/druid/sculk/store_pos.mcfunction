@@ -1,0 +1,1 @@
+$data modify entity @e[type=minecraft:marker, tag=sculk_main_marker, limit=1] data.Blocks[0].Pos set value $(Pos)

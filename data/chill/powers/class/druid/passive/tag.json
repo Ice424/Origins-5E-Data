@@ -163,7 +163,7 @@
         },
         {
             "type": "origins:execute_command",
-            "command": "tag @s remove skulk"
+            "command": "tag @s remove sculk"
         },
         {
             "type": "origins:execute_command",

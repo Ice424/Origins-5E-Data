@@ -1,0 +1,352 @@
+{
+    "name": "Fungi's Onslaught",
+    "description": "Hold sneak and ability to spread sculk to deal damage",
+    "type": "origins:multiple",
+    "build": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "amount": 1
+            },
+            "resource": "*:*_resource"
+        },
+        "key": {
+            "key": "key.origins.secondary_active",
+            "continuous": true
+        },
+        "condition": {
+            "type": "origins:all_of",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:sneaking"
+                }
+            ]
+        }
+    },
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 120,
+        "hud_render": {
+            "should_render": true,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_resource",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            "sprite_location": "chill:textures/item/bars/druid_bars.png",
+            "bar_index": 2
+        }
+    },
+    "on_hit": {
+        "type": "origins:action_when_hit",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:modify_resource",
+                        "modifier": {
+                            "operation": "set_total",
+                            "amount": 0
+                        },
+                        "resource": "*:*_resource"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "function chill:druid/sculk/unsummon"
+                    }
+                ]
+            }
+        }
+    },
+    "cooldown": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 120,
+        "hud_render": {
+            "should_render": true,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_cooldown",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            "sprite_location": "chill:textures/item/bars/druid_bars.png",
+            "bar_index": 2
+        }
+    },
+    "cooling": {
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": "==",
+            "compare_to": 0,
+            "inverted": true
+        },
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "amount": -1
+            },
+            "resource": "*:*_cooldown"
+        }
+    },
+    "activate": {
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "condition": {
+            "type": "all_of",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_resource",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:sneaking"
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_resource",
+                        "comparison": "==",
+                        "compare_to": 120
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:block_action_at",
+                                "block_action": {
+                                    "type": "origins:area_of_effect",
+                                    "radius": 15,
+                                    "shape": "sphere",
+                                    "block_condition": {
+                                        "type": "origins:and",
+                                        "conditions": [
+                                            {
+                                                "type": "origins:adjacent",
+                                                "adjacent_condition": {
+                                                    "type": "origins:block",
+                                                    "block": "minecraft:air"
+                                                },
+                                                "comparison": ">=",
+                                                "compare_to": 1
+                                            },
+                                            {
+                                                "type": "origins:in_tag",
+                                                "tag": "minecraft:sculk_replaceable"
+                                            }
+                                        ]
+                                    },
+                                    "block_action": {
+                                        "type": "origins:chance",
+                                        "chance": 0.1,
+                                        "action": {
+                                            "type": "origins:execute_command",
+                                            "command": "function chill:druid/sculk/summon"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "origins:area_of_effect",
+                                "radius": 15,
+                                "bientity_condition": {
+                                    "type": "apoli:target_condition",
+                                    "condition": {
+                                        "type": "origins:on_block",
+                                        "block_condition": {
+                                            "type": "apoli:block",
+                                            "block": "minecraft:sculk"
+                                        }
+                                    }
+                                },
+                                "bientity_action": {
+                                    "type": "origins:damage",
+                                    "amount": 1,
+                                    "damage_type": "magic"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_resource",
+                        "comparison": ">",
+                        "compare_to": 60
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:block_action_at",
+                                "block_action": {
+                                    "type": "origins:area_of_effect",
+                                    "radius": 10,
+                                    "shape": "sphere",
+                                    "block_condition": {
+                                        "type": "origins:and",
+                                        "conditions": [
+                                            {
+                                                "type": "origins:adjacent",
+                                                "adjacent_condition": {
+                                                    "type": "origins:block",
+                                                    "block": "minecraft:air"
+                                                },
+                                                "comparison": ">=",
+                                                "compare_to": 1
+                                            },
+                                            {
+                                                "type": "origins:in_tag",
+                                                "tag": "minecraft:sculk_replaceable"
+                                            }
+                                        ]
+                                    },
+                                    "block_action": {
+                                        "type": "origins:chance",
+                                        "chance": 0.1,
+                                        "action": {
+                                            "type": "origins:execute_command",
+                                            "command": "function chill:druid/sculk/summon"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "origins:area_of_effect",
+                                "radius": 10,
+                                "bientity_condition": {
+                                    "type": "apoli:target_condition",
+                                    "condition": {
+                                        "type": "origins:on_block",
+                                        "block_condition": {
+                                            "type": "apoli:block",
+                                            "block": "minecraft:sculk"
+                                        }
+                                    }
+                                },
+                                "bientity_action": {
+                                    "type": "origins:damage",
+                                    "amount": 1,
+                                    "damage_type": "magic"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_resource",
+                        "comparison": ">",
+                        "compare_to": 30
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:block_action_at",
+                                "block_action": {
+                                    "type": "origins:area_of_effect",
+                                    "radius": 5,
+                                    "shape": "sphere",
+                                    "block_condition": {
+                                        "type": "origins:and",
+                                        "conditions": [
+                                            {
+                                                "type": "origins:adjacent",
+                                                "adjacent_condition": {
+                                                    "type": "origins:block",
+                                                    "block": "minecraft:air"
+                                                },
+                                                "comparison": ">=",
+                                                "compare_to": 1
+                                            },
+                                            {
+                                                "type": "origins:in_tag",
+                                                "tag": "minecraft:sculk_replaceable"
+                                            }
+                                        ]
+                                    },
+                                    "block_action": {
+                                        "type": "origins:chance",
+                                        "chance": 0.1,
+                                        "action": {
+                                            "type": "origins:execute_command",
+                                            "command": "function chill:druid/sculk/summon"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "origins:area_of_effect",
+                                "radius": 5,
+                                "bientity_condition": {
+                                    "type": "apoli:target_condition",
+                                    "condition": {
+                                        "type": "origins:on_block",
+                                        "block_condition": {
+                                            "type": "apoli:block",
+                                            "block": "minecraft:sculk"
+                                        }
+                                    }
+                                },
+                                "bientity_action": {
+                                    "type": "origins:damage",
+                                    "amount": 1,
+                                    "damage_type": "magic"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "falling_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:modify_resource",
+                    "modifier": {
+                        "operation": "set_total",
+                        "amount": 0
+                    },
+                    "resource": "*:*_resource"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function chill:druid/sculk/unsummon"
+                }
+            ]
+        }
+    }
+}
