@@ -153,8 +153,8 @@
                                             {
                                                 "type": "origins:adjacent",
                                                 "adjacent_condition": {
-                                                    "type": "origins:block",
-                                                    "block": "minecraft:air"
+                                                    "type": "origins:light_blocking",
+                                                    "inverted": true
                                                 },
                                                 "comparison": ">=",
                                                 "compare_to": 1
@@ -190,7 +190,7 @@
                                 },
                                 "bientity_action": {
                                     "type": "origins:damage",
-                                    "amount": 1,
+                                    "amount": 4,
                                     "damage_type": "magic"
                                 }
                             }
@@ -219,8 +219,8 @@
                                             {
                                                 "type": "origins:adjacent",
                                                 "adjacent_condition": {
-                                                    "type": "origins:block",
-                                                    "block": "minecraft:air"
+                                                    "type": "origins:light_blocking",
+                                                    "inverted": true
                                                 },
                                                 "comparison": ">=",
                                                 "compare_to": 1
@@ -256,7 +256,7 @@
                                 },
                                 "bientity_action": {
                                     "type": "origins:damage",
-                                    "amount": 1,
+                                    "amount": 3,
                                     "damage_type": "magic"
                                 }
                             }
@@ -285,8 +285,8 @@
                                             {
                                                 "type": "origins:adjacent",
                                                 "adjacent_condition": {
-                                                    "type": "origins:block",
-                                                    "block": "minecraft:air"
+                                                    "type": "origins:light_blocking",
+                                                    "inverted": true
                                                 },
                                                 "comparison": ">=",
                                                 "compare_to": 1

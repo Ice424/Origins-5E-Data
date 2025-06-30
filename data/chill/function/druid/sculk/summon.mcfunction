@@ -6,7 +6,7 @@ scale set pehkui:base 0 @e[tag=sculk_marker, limit=1, sort=nearest]
 
 
 
-tp @e[tag=sculk_marker, limit=1, sort=nearest] ~-0.5 ~-0.5 ~-0.5
+tp @e[tag=sculk_marker, limit=1, sort=nearest] ~ ~ ~
 
 loot replace entity @e[tag=sculk_marker, limit=1, sort=nearest] weapon.mainhand mine ~ ~ ~ diamond_pickaxe[enchantments={"minecraft:silk_touch":1}]
 

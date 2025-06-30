@@ -1,0 +1,1 @@
+execute if entity @e[type=armor_stand, tag=sculk_deleter] run function chill:druid/sculk/loop

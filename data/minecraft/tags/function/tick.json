@@ -1,5 +1,6 @@
 {
   "values": [
-    "ui:tick"
+    "ui:tick",
+    "chill:tick"
   ]
 }
