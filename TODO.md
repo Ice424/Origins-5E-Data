@@ -1,7 +1,4 @@
 ##TO DO
-druid speed: Environmental Affinity
-You are faster when in water or on a grass block
-
 rogue blindness: Smoke Bomb
 Ability to give blindness to anyone in 5 blocks for 4 seconds
 

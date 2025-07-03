@@ -1,0 +1,39 @@
+{
+    "name": "Environmental Affinity",
+    "description": "You are faster when in water or on dirt",
+    "type": "origins:action_over_time",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:on_block",
+                "block_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:dirt"
+                }
+            },
+            {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            }
+        ]
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "id": "minecraft:speed",
+                "duration": 40,
+                "amplifier": 1,
+                "show_particles": false
+            },
+            {
+                "id": "minecraft:dolphins_grace",
+                "duration": 40,
+                "amplifier": 1,
+                "show_particles": false
+            }
+        ]
+    },
+    "interval": 1
+}

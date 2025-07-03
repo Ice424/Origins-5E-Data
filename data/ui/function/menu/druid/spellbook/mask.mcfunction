@@ -16,7 +16,7 @@ execute if entity @p[tag=sculk] run data modify storage ui mask insert 0 value {
 
 execute if entity @p[tag=!sculk] run data modify storage ui mask insert 0 value {Slot: 21b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 59, custom_name:"{\"color\":\"dark_gray\",\"italic\":false, \"text\":\"Fungi's Onslaught\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=speed] run data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:stick", "components": {"custom_model_data": 60, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"You are faster when in water or on a grass block\"}"],custom_name:"{\"color\":\"#99e550\",\"italic\":false,\"text\":\"Environmental Affinity\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=speed] run data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:stick", "components": {"custom_model_data": 60, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"You are faster when in water or on dirt\"}"],custom_name:"{\"color\":\"#99e550\",\"italic\":false,\"text\":\"Environmental Affinity\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 execute if entity @p[tag=!speed] run data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 60, custom_name:"{\"color\":\"dark_gray\",\"italic\":false, \"text\":\"Environmental Affinity\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
