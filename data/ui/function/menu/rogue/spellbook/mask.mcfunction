@@ -20,7 +20,7 @@ execute if entity @p[tag=wall_climb] run data modify storage ui mask insert 0 va
 
 execute if entity @p[tag=!wall_climb] run data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 85, custom_name:"{\"color\":\"dark_gray\",\"italic\":false, \"text\":\"Wall Climb\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
-execute if entity @p[tag=blindness] run data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:stick", "components": {"custom_model_data": 86, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Ability to give blindness to anyone in 5 blocks for 4 seconds\"}"],custom_name:"{\"color\":\"#121212\",\"italic\":false,\"text\":\"Smoke Bomb\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+execute if entity @p[tag=blindness] run data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:stick", "components": {"custom_model_data": 86, lore:["{\"color\":\"gray\",\"italic\":false,\"text\":\"Ability to give blindness to anyone in 8 blocks for 5 seconds\"}"],custom_name:"{\"color\":\"#121212\",\"italic\":false,\"text\":\"Smoke Bomb\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 execute if entity @p[tag=!blindness] run data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 86, custom_name:"{\"color\":\"dark_gray\",\"italic\":false, \"text\":\"Smoke Bomb\"}", "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 

@@ -1,0 +1,19 @@
+{
+    "name": "Smoke Bomb",
+    "description": "Ability to give blindness to anyone in 8 blocks for 5 seconds",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:explosion_emitter"
+            },
+            {
+                "type": "origins:area_of_effect",
+                "radius": 6,
+                "shape": "sphere"
+            }
+        ]
+    }
+}

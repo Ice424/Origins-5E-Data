@@ -1,6 +1,6 @@
 summon item_display ~-0 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":1}}}
-summon item_display ~-1 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":2}}}  
-summon item_display ~-2 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":3}}}  
+summon item_display ~-1 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":2}}}
+summon item_display ~-2 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":3}}}
 
 summon item_display ~-9 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":10}}} 
 summon item_display ~-10 ~0 ~ {item:{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":11}}}
