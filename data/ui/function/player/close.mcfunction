@@ -7,4 +7,4 @@ execute as @e[tag=ui] if score @s ui.id = #search ui.id run kill @s
 # reset the player's score
 scoreboard players reset @s ui.id
 
-execute as @p at @p run stopsound @s * chill:chill.shop.play
+execute as @s at @s run stopsound @s * chill:chill.shop.play
