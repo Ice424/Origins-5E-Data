@@ -1,0 +1,15 @@
+{
+    "name": "Evasion",
+    "description": "Mobs take longer to aggro",
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:visibility 0.3 @s",
+        "permission_level": 4
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:visibility 1 @s",
+        "permission_level": 4
+    }
+}

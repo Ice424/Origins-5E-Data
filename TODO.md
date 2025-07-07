@@ -1,13 +1,4 @@
 ##TO DO
-rogue footsteps: Sneaky
-Silent footsteps
-
-rogue nametag: Off the Grid
-You have no name tag
-
-rogue agro: Evasion
-Mobs take longer to aggro
-
 rogue stealth_bonus: Stealth affinity
 Use ability to get speed 3 and strength 2
 

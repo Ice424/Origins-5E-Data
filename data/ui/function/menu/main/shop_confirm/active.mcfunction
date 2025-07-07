@@ -15,4 +15,5 @@ execute if score @p predicate matches 68 run scoreboard players set @p activated
 execute if score @p predicate matches 71 run scoreboard players set @p activated 1
 execute if score @p predicate matches 72 run scoreboard players set @p activated 1
 execute if score @p predicate matches 76 run scoreboard players set @p activated 1
+execute if score @p predicate matches 86 run scoreboard players set @p activated 1
 execute if score @p predicate matches 107 run scoreboard players set @p activated 1

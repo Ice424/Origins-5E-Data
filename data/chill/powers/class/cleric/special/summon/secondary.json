@@ -32,8 +32,9 @@
         },
         "cooldown": 200,
         "hud_render": {
-            "sprite_location": "origins:textures/gui/resource_bar.png",
-            "bar_index": 1
+            "should_render": true,
+            "sprite_location": "chill:textures/item/bars/cleric_bars.png",
+            "bar_index": 3
         }
     },
     "callback": {
@@ -43,7 +44,7 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "team create cleric  @s"
+                    "command": "team add cleric"
                 },
                 {
                     "type": "origins:execute_command",

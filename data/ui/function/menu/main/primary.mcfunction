@@ -44,6 +44,9 @@ execute if score @p predicate matches 72 run power grant @p chill:class/fighter/
 execute if score @p predicate matches 76 run scoreboard players set @p primary 76
 execute if score @p predicate matches 76 run power grant @p chill:class/fighter/high/speedboost/primary chill:primary
     
+execute if score @p predicate matches 86 run scoreboard players set @p primary 86
+execute if score @p predicate matches 86 run power grant @p chill:class/rogue/high/blindness/primary chill:primary
+    
 execute if score @p predicate matches 107 run scoreboard players set @p primary 107
 execute if score @p predicate matches 107 run power grant @p chill:class/wizard/special/lightning/primary chill:primary
     
