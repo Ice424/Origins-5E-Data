@@ -3,10 +3,7 @@
   "origins": [
     "chill:cleric",
     "chill:druid",
-    "chill:fighter",
-    "chill:tank",
-    "chill:wizard",
-    "chill:rogue"
+    "chill:fighter"
   ],
   "gui_title": {
     "choose_origin": "Choose a class",
