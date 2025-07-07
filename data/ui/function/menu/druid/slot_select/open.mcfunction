@@ -1,4 +1,4 @@
-$scoreboard players set @p predicate $(predicate)
+$execute as @a[scores={ui.id=1..}] if score @s ui.id = @s ui.id run scoreboard players set @s predicate $(predicate)
 function ui:menu/druid/slot_select/mask
 data modify storage ui current set from storage ui mask
 execute on passengers run data modify entity @s data.page.mask set value "function ui:menu/druid/slot_select/mask"
