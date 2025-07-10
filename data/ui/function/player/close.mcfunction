@@ -7,8 +7,4 @@ execute as @e[tag=ui] if score @s ui.id = #search ui.id run kill @s
 # reset the player's score
 scoreboard players reset @s ui.id
 
-<<<<<<< Updated upstream
-execute as @s at @s run stopsound @s * chill:chill.shop.play
-=======
 function ui:minecart/as_player {cmd:"run stopsound @s * chill:chill.shop.play"}
->>>>>>> Stashed changes
