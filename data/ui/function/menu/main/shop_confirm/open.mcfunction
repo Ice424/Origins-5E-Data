@@ -1,4 +1,4 @@
-$execute as @a[scores={ui.id=1..}] if score @s ui.id = @s ui.id run scoreboard players set @s predicate $(predicate)
+$function ui:minecart/as_player {"cmd":"scoreboard players set @s predicate $(predicate)"}
 function ui:menu/main/shop_confirm/active
 function ui:menu/main/shop_confirm/mask
 data modify storage ui current set from storage ui mask
