@@ -2,9 +2,6 @@
 rogue stealth_bonus: Stealth affinity
 Use ability to get speed 3 and strength 2
 
-rogue fall_dmg: Slow Fall
-No fall damage
-
 rogue dash: Dash
 Get a 6 block dash, scales with momentum
 

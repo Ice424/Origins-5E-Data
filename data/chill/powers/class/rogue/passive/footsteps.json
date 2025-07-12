@@ -9,9 +9,5 @@
     "hit_ground": {
         "type": "origins:prevent_game_event",
         "event": "minecraft:hit_ground"
-    },
-    "elytra_free_fall": {
-        "type": "origins:prevent_game_event",
-        "event": "minecraft:elytra_free_fall"
     }
 }

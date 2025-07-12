@@ -179,6 +179,10 @@
         },
         {
             "type": "origins:execute_command",
+            "command": "tag @s remove grapple_hook"
+        },
+        {
+            "type": "origins:execute_command",
             "command": "tag @s remove stealth_bonus"
         },
         {

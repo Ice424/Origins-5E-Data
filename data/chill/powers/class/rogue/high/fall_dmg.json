@@ -1,0 +1,13 @@
+{
+    "name": "Feather Fall",
+    "description": "No fall damage",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "modifier": {
+        "operation": "set_total",
+        "amount": 0
+    }
+}
