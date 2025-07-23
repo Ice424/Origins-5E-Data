@@ -4,9 +4,9 @@ function ui:minecart/if_player_selector {selector:"tag=block", cmd:'data modify 
 
 function ui:minecart/if_player_selector {selector:"tag=!block", cmd:'data modify storage ui mask insert 0 value {Slot: 18b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 94, custom_name:\'{"color":"dark_gray","italic":false, "text":"Unshakeable"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=damage", cmd:'data modify storage ui mask insert 0 value {Slot: 19b, id:"minecraft:stick", "components": {"custom_model_data": 95, lore:[\'{"color":"gray","italic":false,"text":"Take half damage"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Warrior\'s Defence"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=damage", cmd:'data modify storage ui mask insert 0 value {Slot: 19b, id:"minecraft:stick", "components": {"custom_model_data": 95, lore:[\'{"color":"gray","italic":false,"text":"Take half damage"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Warrior\\\'s Defence"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=!damage", cmd:'data modify storage ui mask insert 0 value {Slot: 19b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 95, custom_name:\'{"color":"dark_gray","italic":false, "text":"Warrior\'s Defence"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=!damage", cmd:'data modify storage ui mask insert 0 value {Slot: 19b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 95, custom_name:\'{"color":"dark_gray","italic":false, "text":"Warrior\\\'s Defence"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
 function ui:minecart/if_player_selector {selector:"tag=fire_res", cmd:'data modify storage ui mask insert 0 value {Slot: 20b, id:"minecraft:stick", "components": {"custom_model_data": 96, lore:[\'{"color":"gray","italic":false,"text":"Fire resistance"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Born From Flame"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
@@ -16,9 +16,9 @@ function ui:minecart/if_player_selector {selector:"tag=fire_ring", cmd:'data mod
 
 function ui:minecart/if_player_selector {selector:"tag=!fire_ring", cmd:'data modify storage ui mask insert 0 value {Slot: 21b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 97, custom_name:\'{"color":"dark_gray","italic":false, "text":"Ring Of Fire"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=rage", cmd:'data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:stick", "components": {"custom_model_data": 98, lore:[\'{"color":"gray","italic":false,"text":"When you rage, you get increased speed and damage for a short period"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Warrior\'s Rage"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=rage", cmd:'data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:stick", "components": {"custom_model_data": 98, lore:[\'{"color":"gray","italic":false,"text":"When you rage, you get increased speed and damage for a short period"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Warrior\\\'s Rage"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=!rage", cmd:'data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 98, custom_name:\'{"color":"dark_gray","italic":false, "text":"Warrior\'s Rage"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=!rage", cmd:'data modify storage ui mask insert 0 value {Slot: 22b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 98, custom_name:\'{"color":"dark_gray","italic":false, "text":"Warrior\\\'s Rage"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
 function ui:minecart/if_player_selector {selector:"tag=stone", cmd:'data modify storage ui mask insert 0 value {Slot: 23b, id:"minecraft:stick", "components": {"custom_model_data": 99, lore:[\'{"color":"gray","italic":false,"text":"Gain the ability to create a wall of stone"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Wall Of Stone"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
@@ -36,15 +36,15 @@ function ui:minecart/if_player_selector {selector:"tag=knockback", cmd:'data mod
 
 function ui:minecart/if_player_selector {selector:"tag=!knockback", cmd:'data modify storage ui mask insert 0 value {Slot: 26b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 102, custom_name:\'{"color":"dark_gray","italic":false, "text":"Heavy"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=shield", cmd:'data modify storage ui mask insert 0 value {Slot: 27b, id:"minecraft:stick", "components": {"custom_model_data": 103, lore:[\'{"color":"gray","italic":false,"text":"Able to deploy a shield that blocks projectiles"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Warrior\'s Protection"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=shield", cmd:'data modify storage ui mask insert 0 value {Slot: 27b, id:"minecraft:stick", "components": {"custom_model_data": 103, lore:[\'{"color":"gray","italic":false,"text":"Able to deploy a shield that blocks projectiles"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Warrior\\\'s Protection"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=!shield", cmd:'data modify storage ui mask insert 0 value {Slot: 27b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 103, custom_name:\'{"color":"dark_gray","italic":false, "text":"Warrior\'s Protection"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=!shield", cmd:'data modify storage ui mask insert 0 value {Slot: 27b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 103, custom_name:\'{"color":"dark_gray","italic":false, "text":"Warrior\\\'s Protection"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
 function ui:minecart/if_player_selector {selector:"tag=thorns", cmd:'data modify storage ui mask insert 0 value {Slot: 28b, id:"minecraft:stick", "components": {"custom_model_data": 104, lore:[\'{"color":"gray","italic":false,"text":"Use ability to toggle thorns"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Barbed Armour"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
 function ui:minecart/if_player_selector {selector:"tag=!thorns", cmd:'data modify storage ui mask insert 0 value {Slot: 28b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 104, custom_name:\'{"color":"dark_gray","italic":false, "text":"Barbed Armour"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-data modify storage ui mask insert 0 value {Slot: 9b, id:"minecraft:stick", "components": {"custom_model_data": 105, lore:['{"color":"gray","italic":false,"text":"Gain resistance 1"}'],custom_name:'{"color":"#2c2d51","italic":false,"text":"Warrior\'s Might"}', "minecraft:custom_data": {ui_item: {empty: 1b}}}}
+data modify storage ui mask insert 0 value {Slot: 9b, id:"minecraft:stick", "components": {"custom_model_data": 105, lore:['{"color":"gray","italic":false,"text":"Gain resistance 1"}'],custom_name:'{"color":"#2c2d51","italic":false,"text":"Warrior\\\'s Might"}', "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
 data modify storage ui mask insert 0 value {Slot: 10b, id:"minecraft:stick", "components": {"custom_model_data": 106, lore:['{"color":"gray","italic":false,"text":"Saturation"}'],custom_name:'{"color":"#2c2d51","italic":false,"text":"Nourished"}', "minecraft:custom_data": {ui_item: {empty: 1b}}}}
 
@@ -67,9 +67,9 @@ function ui:minecart/if_player {objective:"primary", score:"58", cmd:'data modif
 
 function ui:minecart/if_player {objective:"secondary", score:"58", cmd:'data modify storage ui mask insert 0 value {Slot: 7b, id:"minecraft:stick", "components": {"custom_model_data": 58, lore:[\'{"color":"gray","italic":false,"text":"Stop all mobs movement around you"}\'],custom_name:\'{"color":"#99e550","italic":false,"text":"Freeze Life"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 
-function ui:minecart/if_player {objective:"primary", score:"59", cmd:'data modify storage ui mask insert 0 value {Slot: 5b, id:"minecraft:stick", "components": {"custom_model_data": 59, lore:[\'{"color":"gray","italic":false,"text":"Hold sneak and ability to spread sculk to deal damage"}\'],custom_name:\'{"color":"#99e550","italic":false,"text":"Fungi\'s Onslaught"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
+function ui:minecart/if_player {objective:"primary", score:"59", cmd:'data modify storage ui mask insert 0 value {Slot: 5b, id:"minecraft:stick", "components": {"custom_model_data": 59, lore:[\'{"color":"gray","italic":false,"text":"Hold sneak and ability to spread sculk to deal damage"}\'],custom_name:\'{"color":"#99e550","italic":false,"text":"Fungi\\\'s Onslaught"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 
-function ui:minecart/if_player {objective:"secondary", score:"59", cmd:'data modify storage ui mask insert 0 value {Slot: 7b, id:"minecraft:stick", "components": {"custom_model_data": 59, lore:[\'{"color":"gray","italic":false,"text":"Hold sneak and ability to spread sculk to deal damage"}\'],custom_name:\'{"color":"#99e550","italic":false,"text":"Fungi\'s Onslaught"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
+function ui:minecart/if_player {objective:"secondary", score:"59", cmd:'data modify storage ui mask insert 0 value {Slot: 7b, id:"minecraft:stick", "components": {"custom_model_data": 59, lore:[\'{"color":"gray","italic":false,"text":"Hold sneak and ability to spread sculk to deal damage"}\'],custom_name:\'{"color":"#99e550","italic":false,"text":"Fungi\\\'s Onslaught"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 
 function ui:minecart/if_player {objective:"primary", score:"61", cmd:'data modify storage ui mask insert 0 value {Slot: 5b, id:"minecraft:stick", "components": {"custom_model_data": 61, lore:[\'{"color":"gray","italic":false,"text":"Use ability to attempt to shoot 8 arrows 360 degrees (arrows have scuffed physics)"}\'],custom_name:\'{"color":"#99e550","italic":false,"text":"Ring of Arrows"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 

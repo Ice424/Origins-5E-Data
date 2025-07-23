@@ -17,7 +17,7 @@ Double damage to enemies who have a negative potion effect or are below half hea
 rogue invisibility: Vanish
 Use to get invisibility for 15 secs, 45 sec cooldown
 
-tank resistance: Warrior\'s Might
+tank resistance: Warrior\\\'s Might
 Gain resistance 1
 
 tank saturation: Nourished
@@ -35,7 +35,7 @@ You have knockback resistance
 tank hook: Chain Hook
 Throws a hook at a target, pulling them towards you when it connects
 
-tank shield: Warrior\'s Protection
+tank shield: Warrior\\\'s Protection
 Able to deploy a shield that blocks projectiles
 
 tank stone: Wall Of Stone
@@ -47,10 +47,10 @@ Able to create a ring of fire around yourself
 tank block: Unshakeable
 Become invincible for a short period
 
-tank damage: Warrior\'s Defence
+tank damage: Warrior\\\'s Defence
 Take half damage
 
-tank rage: Warrior\'s Rage
+tank rage: Warrior\\\'s Rage
 When you rage, you get increased speed and damage for a short period
 
 tank fire_res: Born From Flame
@@ -68,7 +68,7 @@ Push all mobs back 5 blocks in a 10 block radius
 wizard fireball: Explosive Fireball
 Shoot a fireball that explodes
 
-wizard glow: Wizard\'s Knowledge
+wizard glow: Wizard\\\'s Knowledge
 All mobs within 20 blocks glow
 
 wizard wither: Deteriorate
