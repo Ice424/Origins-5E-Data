@@ -2,8 +2,10 @@ execute as @s store result score @s essence run clear @s minecraft:command_block
 $scoreboard players set @s cost $(cost)
 execute as @s store result score @s cost if score @s essence >= @s cost
 $execute if score @s cost matches 1 run clear @s minecraft:command_block $(cost)
+
 $execute if score @s cost matches 1 run tag @s add $(id)
-$execute if score @s activated matches 0 if score @s cost matches 1 unless score @s predicate matches 44 unless score @s predicate matches 39 run power grant @s chill:$(path)
+
+execute if score @s activated matches 0 if score @s cost matches 1 unless score @s predicate matches 44 unless score @s predicate matches 39 run function ui:menu/main/equip
 
 
 execute if score @s cost matches 1 as @s at @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~

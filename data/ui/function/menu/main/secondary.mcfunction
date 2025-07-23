@@ -47,7 +47,10 @@ function ui:minecart/as_player {cmd:'execute if score @s predicate matches 76 ru
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 86 run scoreboard players set @s secondary 86'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 86 run power grant @s chill:class/rogue/high/blindness/secondary chill:secondary'}
     
-function ui:minecart/as_player {cmd:'execute if score @s predicate matches 107 run scoreboard players set @s secondary 107'}
-function ui:minecart/as_player {cmd:'execute if score @s predicate matches 107 run power grant @s chill:class/wizard/special/lightning/secondary chill:secondary'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 88 run scoreboard players set @s secondary 88'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 88 run power grant @s chill:class/rogue/high/grapple_hook/secondary chill:secondary'}
+    
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 108 run scoreboard players set @s secondary 108'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 108 run power grant @s chill:class/wizard/special/lightning/secondary chill:secondary'}
     
 function ui:menu/main/open_spellbook
