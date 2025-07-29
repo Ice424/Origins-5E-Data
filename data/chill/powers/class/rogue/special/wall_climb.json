@@ -1,0 +1,20 @@
+{
+    "name": "Wall Climb",
+    "description": "Gain the ability to wall climb",
+    "type": "origins:climbing",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:block_collision",
+                "offset_x": 0.01,
+                "offset_z": 0.01
+            },
+            {
+                "type": "origins:block_collision",
+                "offset_x": -0.01,
+                "offset_z": -0.01
+            }
+        ]
+    }
+}

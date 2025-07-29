@@ -44,11 +44,20 @@ function ui:minecart/as_player {cmd:'execute if score @s predicate matches 72 ru
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 76 run scoreboard players set @s secondary 76'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 76 run power grant @s chill:class/fighter/high/speedboost/secondary chill:secondary'}
     
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 81 run scoreboard players set @s secondary 81'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 81 run power grant @s chill:class/rogue/special/dash/secondary chill:secondary'}
+    
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 84 run scoreboard players set @s secondary 84'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 84 run power grant @s chill:class/rogue/special/teleport/secondary chill:secondary'}
+    
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 86 run scoreboard players set @s secondary 86'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 86 run power grant @s chill:class/rogue/high/blindness/secondary chill:secondary'}
     
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 88 run scoreboard players set @s secondary 88'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 88 run power grant @s chill:class/rogue/high/grapple_hook/secondary chill:secondary'}
+    
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 89 run scoreboard players set @s secondary 89'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 89 run power grant @s chill:class/rogue/high/stealth_bonus/secondary chill:secondary'}
     
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 108 run scoreboard players set @s secondary 108'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 108 run power grant @s chill:class/wizard/special/lightning/secondary chill:secondary'}

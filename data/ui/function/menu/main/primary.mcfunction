@@ -44,11 +44,20 @@ function ui:minecart/as_player {cmd:'execute if score @s predicate matches 72 ru
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 76 run scoreboard players set @s primary 76'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 76 run power grant @s chill:class/fighter/high/speedboost/primary chill:primary'}
     
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 81 run scoreboard players set @s primary 81'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 81 run power grant @s chill:class/rogue/special/dash/primary chill:primary'}
+    
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 84 run scoreboard players set @s primary 84'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 84 run power grant @s chill:class/rogue/special/teleport/primary chill:primary'}
+    
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 86 run scoreboard players set @s primary 86'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 86 run power grant @s chill:class/rogue/high/blindness/primary chill:primary'}
     
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 88 run scoreboard players set @s primary 88'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 88 run power grant @s chill:class/rogue/high/grapple_hook/primary chill:primary'}
+    
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 89 run scoreboard players set @s primary 89'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 89 run power grant @s chill:class/rogue/high/stealth_bonus/primary chill:primary'}
     
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 108 run scoreboard players set @s primary 108'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 108 run power grant @s chill:class/wizard/special/lightning/primary chill:primary'}

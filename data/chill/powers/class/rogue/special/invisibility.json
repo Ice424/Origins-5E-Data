@@ -1,0 +1,15 @@
+{
+    "name": "Vanish",
+    "description": "Use to get invisibility for 15 secs, 45 sec cooldown",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "id": "minecraft:invisibility",
+            "duration": 300,
+            "amplifier": 0,
+            "show_particles": false
+        }
+    },
+    "cooldown": 900
+}

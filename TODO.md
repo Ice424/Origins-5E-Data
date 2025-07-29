@@ -1,22 +1,4 @@
 ##TO DO
-rogue stealth_bonus: Stealth affinity
-Use ability to get speed 3 and strength 2
-
-rogue dash: Dash
-Get a 6 block dash, scales with momentum
-
-rogue teleport: Instant Transmission
-Ability to teleport where you are looking
-
-rogue wall_climb: Wall Climb
-Gain the ability to wall climb
-
-rogue opportunist: Opportunist
-Double damage to enemies who have a negative potion effect or are below half health
-
-rogue invisibility: Vanish
-Use to get invisibility for 15 secs, 45 sec cooldown
-
 tank resistance: Warrior\\\'s Might
 Gain resistance 1
 

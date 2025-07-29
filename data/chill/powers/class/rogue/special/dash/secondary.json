@@ -1,0 +1,138 @@
+{
+    "name": "Dash",
+    "description": "You can dash in the direction you look",
+    "type": "origins:multiple",
+    "dash": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "space": "local",
+                    "z": 1.3
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_fall_dmg",
+                    "change": 28
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_wavedash_cooldown",
+                    "change": 5
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_fall_dmg",
+            "comparison": "<=",
+            "compare_to": 1
+        }
+    },
+    "fall_dmg": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 28,
+        "hud_render": {
+            "should_render": true
+        }
+    },
+    "wavedash_cooldown": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 5,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "fall_damage": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_fall_distance",
+                    "fall_distance": 0
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_fall_dmg",
+                    "change": -1
+                }
+            ]
+        },
+        "interval": 1,
+        "hidden": true,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_fall_dmg",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "wavedash_cooldown_down": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_wavedash_cooldown",
+            "change": -1
+        },
+        "interval": 1,
+        "hidden": true,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_wavedash_cooldown",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "wavedash": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "space": "local_horizontal",
+                    "z": 1,
+                    "y": 1
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle explosion ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_fall_dmg",
+                    "change": -20
+                }
+            ]
+        },
+        "key": {
+            "key": "key.jump"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_wavedash_cooldown",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
+        }
+    }
+}

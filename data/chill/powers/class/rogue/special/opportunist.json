@@ -1,0 +1,73 @@
+{
+    "name": "Opportunist",
+    "description": "Double damage to enemies who have a negative potion effect or are below half health",
+    "type": "origins:modify_damage_dealt",
+    "bientity_condition": {
+        "type": "apoli:target_condition",
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:health",
+                    "comparison": "<=",
+                    "compare_to": 10
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:bad_omen"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:blindness"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:darkness"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:hunger"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:levitation"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:mining_fatigue"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:nausea"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:poison"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:slowness"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:weakness"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:wither"
+                }
+            ]
+        }
+    },
+    "modifier":{
+        "operation": "multiply_base_multiplicative",
+        "amount": 2
+    },
+    "bientity_action": {
+        "type": "apoli:target_action",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "particle raid_omen ~ ~ ~ 0 1 0 1 10"
+        }
+    }
+}
