@@ -1,0 +1,74 @@
+{
+    "name": "Chain Hook",
+    "description": "Throws a hook at a target, pulling them towards you when it connects",
+    "type": "origins:active_self",
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 24
+    },
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 32,
+        "block": false,
+        "entity": true,
+        "shape_type": "visual",
+        "fluid_handling": "any",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "tag @s add hooked"
+                    },
+                    {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "id": "minecraft:slowness",
+                            "duration": 10,
+                            "amplifier": 255,
+                            "show_particles": true
+                        }
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "playsound minecraft:block.chain.place player @s"
+                    }
+                ]
+            }
+        },
+        "before_action": {
+            "type": "origins:execute_command",
+            "command": "tag @e remove hooked"
+        },
+        "hit_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:delay",
+                    "ticks": 4,
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "tp @e[tag=hooked] ^ ^1 ^1"
+                    }
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:block.chain.place player @s"
+                }
+            ]
+        },
+        "command_along_ray": "particle minecraft:crit",
+        "command_step": 1,
+        "command_along_ray_only_on_hit": true,
+        "miss_action": {
+            "type": "origins:change_resource",
+            "resource": "chill:class/tank/high/hook/primary",
+            "operation": "set",
+            "change": 100
+        }
+    }
+}

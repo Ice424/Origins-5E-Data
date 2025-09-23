@@ -1,0 +1,15 @@
+{
+    "name": "Warrior's Might",
+    "description": "Gain resistance 1",
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "id": "minecraft:resistance",
+            "duration": 300,
+            "amplifier": 0,
+            "show_particles": false
+            }
+        },
+    "interval": 100
+}

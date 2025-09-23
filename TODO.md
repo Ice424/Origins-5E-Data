@@ -1,10 +1,4 @@
 ##TO DO
-tank resistance: Warrior\\\'s Might
-Gain resistance 1
-
-tank saturation: Nourished
-Saturation
-
 tank thorns: Barbed Armour
 Use ability to toggle thorns
 
