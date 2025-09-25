@@ -1,0 +1,11 @@
+{
+    "name": "Heavy",
+    "description": "You have knockback resistance",
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.knockback_resistance",
+    "modifier": {
+        "operation": "set_total",
+        "resource": "example:resource",
+        "value": 0.8
+    }
+}
