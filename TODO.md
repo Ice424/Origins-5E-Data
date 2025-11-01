@@ -1,13 +1,4 @@
 ##TO DO
-tank shield: Warrior\\\'s Protection
-Able to deploy a shield that blocks projectiles
-
-tank knockback: Heavy
-You have knockback resistance
-
-tank thorns: Barbed Armour
-You have thorns on all your Armour
-
 tank stone: Wall Of Stone
 Gain the ability to create a wall of stone
 

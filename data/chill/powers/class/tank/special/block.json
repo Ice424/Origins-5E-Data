@@ -1,0 +1,24 @@
+{
+    "name": "Unshakeable",
+    "description": "Become invincible for a short period",
+    "type": "origins:multiple",
+    "activate": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.primary_active"
+        }
+        "entity_action": {
+            "type": "origins:and"
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:item.trident.hit master @a[distance=..30] ~ ~ ~ "
+                },
+                {
+                    "type": "origins:execute_command"
+                    "command": ""
+                }
+            ]
+        }
+    }
+}

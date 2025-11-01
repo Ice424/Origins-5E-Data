@@ -36,9 +36,9 @@ function ui:minecart/if_player_selector {selector:"tag=knockback", cmd:'data mod
 
 function ui:minecart/if_player_selector {selector:"tag=!knockback", cmd:'data modify storage ui mask insert 0 value {Slot: 26b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 102, custom_name:\'{"color":"dark_gray","italic":false, "text":"Heavy"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=shield", cmd:'data modify storage ui mask insert 0 value {Slot: 27b, id:"minecraft:stick", "components": {"custom_model_data": 103, lore:[\'{"color":"gray","italic":false,"text":"Able to deploy a shield that blocks projectiles"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Warrior\\\'s Protection"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=shield", cmd:'data modify storage ui mask insert 0 value {Slot: 27b, id:"minecraft:stick", "components": {"custom_model_data": 103, lore:[\'{"color":"gray","italic":false,"text":"none"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"shield"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=!shield", cmd:'data modify storage ui mask insert 0 value {Slot: 27b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 103, custom_name:\'{"color":"dark_gray","italic":false, "text":"Warrior\\\'s Protection"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=!shield", cmd:'data modify storage ui mask insert 0 value {Slot: 27b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 103, custom_name:\'{"color":"dark_gray","italic":false, "text":"shield"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
 function ui:minecart/if_player_selector {selector:"tag=thorns", cmd:'data modify storage ui mask insert 0 value {Slot: 28b, id:"minecraft:stick", "components": {"custom_model_data": 104, lore:[\'{"color":"gray","italic":false,"text":"You have thorns on all your Armour"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Barbed Armour"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
