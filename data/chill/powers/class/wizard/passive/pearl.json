@@ -1,0 +1,22 @@
+{
+    "name": "Summon Ender Pearl",
+    "description": "Crouch to get an ender pearl, 60 secs cooldown",
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.sneak"
+    },
+    "entity_action": {
+        "type": "origins:give",
+        "stack": {
+            "item": "minecraft:ender_pearl",
+            "amount": 1
+        },
+        "preferred_slot": "offhand"
+    },
+    "cooldown": 1200,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 6,
+        "sprite_location": "origins:textures/gui/resource_bar.png"
+    }
+}
