@@ -8,7 +8,7 @@
     "entity_action": {
         "type": "origins:give",
         "stack": {
-            "item": "minecraft:ender_pearl",
+            "id": "minecraft:ender_pearl",
             "amount": 1
         },
         "preferred_slot": "offhand"
