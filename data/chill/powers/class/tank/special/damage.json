@@ -1,0 +1,9 @@
+{
+    "name": "Warrior's Defence",
+    "description": "Take half damage",
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "amount": -0.5
+    }
+}

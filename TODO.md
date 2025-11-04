@@ -1,4 +1,7 @@
 ##TO DO
+tank ground_pound: Ground Pound
+When you take fall damage you do a ground pound, the higher you fall, the more damage
+
 tank stone: Wall Of Stone
 Gain the ability to create a wall of stone
 
@@ -7,18 +10,6 @@ Able to create a ring of fire around yourself
 
 tank rage: Warrior\\\'s Rage
 When you rage, you get increased speed and damage for a short period
-
-tank damage: Warrior\\\'s Defence
-Take half damage
-
-tank fire_res: Born From Flame
-Fire resistance
-
-tank block: Unshakeable
-Become invincible for a short period
-
-wizard pearl: Summon Ender Pearl
-Crouch to get an ender pearl, 60 secs cooldown
 
 wizard push: Force Push
 Push all mobs back 5 blocks in a 10 block radius
@@ -37,7 +28,4 @@ Gain flight for a short amount of time
 
 wizard wither: Deteriorate
 Inflict wither to mobs within fov
-
-wizard slow_fall: Glide
-Crouch mid air gives slow falling
 

@@ -49,7 +49,9 @@ execute if score @s predicate matches 82 run power grant @s chill:class/rogue/sp
 execute if score @s predicate matches 83 run power grant @s chill:class/rogue/special/opportunist chill:passive
 execute if score @s predicate matches 85 run power grant @s chill:class/rogue/special/wall_climb chill:passive
 execute if score @s predicate matches 87 run power grant @s chill:class/rogue/high/fall_dmg chill:passive
-execute if score @s predicate matches 100 run power grant @s chill:class/tank/high/ground_pound chill:passive
+execute if score @s predicate matches 95 run power grant @s chill:class/tank/special/damage chill:passive
+execute if score @s predicate matches 96 run power grant @s chill:class/tank/special/fire_res chill:passive
 execute if score @s predicate matches 101 run power grant @s chill:class/tank/high/hook chill:passive
 execute if score @s predicate matches 102 run power grant @s chill:class/tank/high/knockback chill:passive
 execute if score @s predicate matches 104 run power grant @s chill:class/tank/high/thorns chill:passive
+execute if score @s predicate matches 109 run power grant @s chill:class/wizard/special/slow_fall chill:passive
