@@ -2,26 +2,14 @@
 tank ground_pound: Ground Pound
 When you take fall damage you do a ground pound, the higher you fall, the more damage
 
-tank ground_pound: Ground Pound
-When you take fall damage you do a ground pound, the higher you fall, the more damage
-
 tank stone: Wall Of Stone
 Gain the ability to create a wall of stone
 
 tank fire_ring: Ring Of Fire
 Able to create a ring of fire around yourself
 
-tank damage: Warrior\\\'s Defence
-Take half damage
-
 tank rage: Warrior\\\'s Rage
 When you rage, you get increased speed and damage for a short period
-
-tank fire_res: Born From Flame
-Fire resistance
-
-wizard pearl: Summon Ender Pearl
-Crouch to get an ender pearl, 60 secs cooldown
 
 wizard ice: Ice Walker
 Temporarily gain frost walker and slow aura
@@ -40,7 +28,4 @@ Inflict wither to mobs within fov
 
 wizard fly: Levitation
 Gain flight for a short amount of time
-
-wizard slow_fall: Glide
-Crouch mid air gives slow falling
 
