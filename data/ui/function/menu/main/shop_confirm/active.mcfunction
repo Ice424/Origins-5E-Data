@@ -20,4 +20,5 @@ function ui:minecart/as_player {cmd:"execute if score @s predicate matches 84 ru
 function ui:minecart/as_player {cmd:"execute if score @s predicate matches 86 run scoreboard players set @s activated 1"}
 function ui:minecart/as_player {cmd:"execute if score @s predicate matches 88 run scoreboard players set @s activated 1"}
 function ui:minecart/as_player {cmd:"execute if score @s predicate matches 89 run scoreboard players set @s activated 1"}
+function ui:minecart/as_player {cmd:"execute if score @s predicate matches 103 run scoreboard players set @s activated 1"}
 function ui:minecart/as_player {cmd:"execute if score @s predicate matches 108 run scoreboard players set @s activated 1"}

@@ -6,19 +6,48 @@
         "type": "origins:active_self",
         "key": {
             "key": "key.origins.primary_active"
-        }
+        },
         "entity_action": {
-            "type": "origins:and"
+            "type": "origins:and",
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "playsound minecraft:item.trident.hit master @a[distance=..30] ~ ~ ~ "
+                    "command": "playsound minecraft:item.trident.hit"
                 },
                 {
-                    "type": "origins:execute_command"
-                    "command": ""
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:wax_off ~ ~1 ~ 0 0 0 10 30 normal"
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "id": "minecraft:slowness",
+                        "duration": 10,
+                        "amplifier": 244,
+                        "show_particles": false
+                    }
                 }
             ]
+        },
+        "hud_render":{
+            "should_render": true
+        },
+        "cooldown": 10
+    },
+    "block": {
+        "type": "origins:modify_damage_taken",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_activate",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "modifier": {
+            "operation": "set_total",
+            "amount": 0
         }
+        
+
     }
 }
+
