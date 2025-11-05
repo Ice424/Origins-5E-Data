@@ -1,0 +1,106 @@
+{
+    "type": "origins:multiple",
+    "n": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "hud_render": {
+            "should_render": true
+        }
+    },
+    "decay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_n",
+            "change": -1
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_n",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "key": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "*:*_n",
+                                "comparison": "==",
+                                "compare_to": 0
+                            },
+                            {
+                                "type": "origins:on_block",
+                                "inverted": true
+                            }
+                        ]
+                    },
+                    "if_action": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "id": "minecraft:slow_falling",
+                            "duration": 200,
+                            "amplifier": 1,
+                            "show_particles": false
+                        }
+                    }
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_n",
+                    "change": 2
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.sneak",
+            "continuous": true
+        }
+    },
+    "hold_or_release": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "id": "minecraft:slow_falling",
+                "duration": 200,
+                "amplifier": 1,
+                "show_particles": false
+            }
+        },
+        "interval": 1,
+        "falling_action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:slow_falling"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+            "resource": "*:*_n",
+            "comparison": ">",
+            "compare_to": 1
+                },
+                {
+                    "type": "origins:on_block",
+                    "inverted": true
+                }
+            ]
+        }
+    }
+}

@@ -8,9 +8,9 @@ function ui:minecart/if_player_selector {selector:"tag=lightning", cmd:'data mod
 
 function ui:minecart/if_player_selector {selector:"tag=!lightning", cmd:'data modify storage ui mask insert 0 value {Slot: 19b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 108, custom_name:\'{"color":"dark_gray","italic":false, "text":"Summon storms"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=slow_fall", cmd:'data modify storage ui mask insert 0 value {Slot: 20b, id:"minecraft:stick", "components": {"custom_model_data": 109, lore:[\'{"color":"gray","italic":false,"text":"Crouch mid air gives slow falling"}\'],custom_name:\'{"color":"#5b6ee1","italic":false,"text":"Glide"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=slow_fall", cmd:'data modify storage ui mask insert 0 value {Slot: 20b, id:"minecraft:stick", "components": {"custom_model_data": 109, lore:[\'{"color":"gray","italic":false,"text":"none"}\'],custom_name:\'{"color":"#5b6ee1","italic":false,"text":"slow_fall"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=!slow_fall", cmd:'data modify storage ui mask insert 0 value {Slot: 20b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 109, custom_name:\'{"color":"dark_gray","italic":false, "text":"Glide"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=!slow_fall", cmd:'data modify storage ui mask insert 0 value {Slot: 20b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 109, custom_name:\'{"color":"dark_gray","italic":false, "text":"slow_fall"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
 function ui:minecart/if_player_selector {selector:"tag=wither", cmd:'data modify storage ui mask insert 0 value {Slot: 21b, id:"minecraft:stick", "components": {"custom_model_data": 110, lore:[\'{"color":"gray","italic":false,"text":"Inflict wither to mobs within fov"}\'],custom_name:\'{"color":"#5b6ee1","italic":false,"text":"Deteriorate"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 

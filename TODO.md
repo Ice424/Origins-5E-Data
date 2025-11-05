@@ -2,6 +2,9 @@
 tank ground_pound: Ground Pound
 When you take fall damage you do a ground pound, the higher you fall, the more damage
 
+tank ground_pound: Ground Pound
+When you take fall damage you do a ground pound, the higher you fall, the more damage
+
 tank stone: Wall Of Stone
 Gain the ability to create a wall of stone
 
