@@ -1,0 +1,76 @@
+{
+    "name": "Ground Pound",
+    "description": "When you take fall damage you do a ground pound, the higher you fall, the more damage",
+    "type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "build": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:on_block",
+            "inverted": true
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "change": 1,
+            "operation": "add",
+            "resource": "*:*_resource"
+        },
+        "rising_action": {
+            "type": "origins:change_resource",
+            "operation": "set",
+            "change": 0,
+            "resource": "*:*_resource"
+        },
+        "interval": 1
+    },
+    "land": {
+        "type": "origins:action_on_land",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "compare_to": 15,
+            "comparison": ">"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 8,
+                    "bientity_action": {
+                        "type": "origins:damage",
+                        "amount": 1,
+                        "damage_type": "fall",
+                        "modifier": {
+                            "operation": "add_base_late",
+                            "resource": "*:*_resource",
+                            "value": 1
+                        }
+                    }
+                },
+                    
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 8,
+                    "bientity_action": {
+                        "type": "origins:add_velocity",
+                        "client": true,
+                        "z": 1.6,
+                        "y": 0.6
+                    }
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:block.anvil.land"
+                }
+            ]
+        }
+    }
+}

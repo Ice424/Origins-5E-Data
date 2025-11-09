@@ -2,10 +2,10 @@
     "name": "Chain Hook",
     "description": "Throws a hook at a target, pulling them towards you when it connects",
     "type": "origins:active_self",
-    "cooldown": 100,
     "key": {
-        "key": "key.origins.primary_active"
+        "key": "key.origins.secondary_active"
     },
+    "cooldown": 100,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
@@ -69,7 +69,7 @@
         "command_along_ray_only_on_hit": true,
         "miss_action": {
             "type": "origins:change_resource",
-            "resource": "chill:class/tank/high/hook/primary",
+            "resource": "chill:class/tank/high/hook/secondary",
             "operation": "set",
             "change": 100
         }

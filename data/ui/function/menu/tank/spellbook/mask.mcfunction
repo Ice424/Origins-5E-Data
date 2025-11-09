@@ -28,7 +28,7 @@ function ui:minecart/if_player_selector {selector:"tag=ground_pound", cmd:'data 
 
 function ui:minecart/if_player_selector {selector:"tag=!ground_pound", cmd:'data modify storage ui mask insert 0 value {Slot: 24b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 100, custom_name:\'{"color":"dark_gray","italic":false, "text":"Ground Pound"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=hook", cmd:'data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:stick", "components": {"custom_model_data": 101, lore:[\'{"color":"gray","italic":false,"text":"Throws a hook at a target, pulling them towards you when it connects"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Chain Hook"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=hook", cmd:'data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:stick", "components": {"custom_model_data": 101, lore:[\'{"color":"gray","italic":false,"text":"Throws a hook at a target, pulling them towards you when it connects"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Chain Hook"}\', "minecraft:custom_data": {ui_item:{cmd:"function ui:menu/tank/slot_select/open {predicate:101}"}}}}'}
 
 function ui:minecart/if_player_selector {selector:"tag=!hook", cmd:'data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 101, custom_name:\'{"color":"dark_gray","italic":false, "text":"Chain Hook"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
@@ -118,6 +118,10 @@ function ui:minecart/if_player {objective:"secondary", score:"89", cmd:'data mod
 function ui:minecart/if_player {objective:"primary", score:"94", cmd:'data modify storage ui mask insert 0 value {Slot: 5b, id:"minecraft:stick", "components": {"custom_model_data": 94, lore:[\'{"color":"gray","italic":false,"text":"Become invincible for a short period"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Unshakeable"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 
 function ui:minecart/if_player {objective:"secondary", score:"94", cmd:'data modify storage ui mask insert 0 value {Slot: 7b, id:"minecraft:stick", "components": {"custom_model_data": 94, lore:[\'{"color":"gray","italic":false,"text":"Become invincible for a short period"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Unshakeable"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
+
+function ui:minecart/if_player {objective:"primary", score:"101", cmd:'data modify storage ui mask insert 0 value {Slot: 5b, id:"minecraft:stick", "components": {"custom_model_data": 101, lore:[\'{"color":"gray","italic":false,"text":"Throws a hook at a target, pulling them towards you when it connects"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Chain Hook"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
+
+function ui:minecart/if_player {objective:"secondary", score:"101", cmd:'data modify storage ui mask insert 0 value {Slot: 7b, id:"minecraft:stick", "components": {"custom_model_data": 101, lore:[\'{"color":"gray","italic":false,"text":"Throws a hook at a target, pulling them towards you when it connects"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Chain Hook"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 
 function ui:minecart/if_player {objective:"primary", score:"103", cmd:'data modify storage ui mask insert 0 value {Slot: 5b, id:"minecraft:stick", "components": {"custom_model_data": 103, lore:[\'{"color":"gray","italic":false,"text":"Able to deploy a shield that blocks damage from any source you can see"}\'],custom_name:\'{"color":"#2c2d51","italic":false,"text":"Warrior\\\'s Protection"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 
