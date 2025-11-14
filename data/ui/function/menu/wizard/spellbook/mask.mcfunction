@@ -28,7 +28,7 @@ function ui:minecart/if_player_selector {selector:"tag=ice", cmd:'data modify st
 
 function ui:minecart/if_player_selector {selector:"tag=!ice", cmd:'data modify storage ui mask insert 0 value {Slot: 24b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 113, custom_name:\'{"color":"dark_gray","italic":false, "text":"Ice Walker"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
-function ui:minecart/if_player_selector {selector:"tag=push", cmd:'data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:stick", "components": {"custom_model_data": 114, lore:[\'{"color":"gray","italic":false,"text":"Push all mobs back 5 blocks in a 10 block radius"}\'],custom_name:\'{"color":"#5b6ee1","italic":false,"text":"Force Push"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
+function ui:minecart/if_player_selector {selector:"tag=push", cmd:'data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:stick", "components": {"custom_model_data": 114, lore:[\'{"color":"gray","italic":false,"text":"Push all mobs back 5 blocks in a 10 block radius"}\'],custom_name:\'{"color":"#5b6ee1","italic":false,"text":"Force Push"}\', "minecraft:custom_data": {ui_item:{cmd:"function ui:menu/wizard/slot_select/open {predicate:114}"}}}}'}
 
 function ui:minecart/if_player_selector {selector:"tag=!push", cmd:'data modify storage ui mask insert 0 value {Slot: 25b, id:"minecraft:iron_nugget", "components": {"custom_model_data": 114, custom_name:\'{"color":"dark_gray","italic":false, "text":"Force Push"}\', "minecraft:custom_data": {ui_item: {empty: 1b}}}}'}
 
@@ -120,6 +120,10 @@ function ui:minecart/if_player {objective:"secondary", score:"103", cmd:'data mo
 function ui:minecart/if_player {objective:"primary", score:"108", cmd:'data modify storage ui mask insert 0 value {Slot: 5b, id:"minecraft:stick", "components": {"custom_model_data": 108, lore:[\'{"color":"gray","italic":false,"text":"Charges lightning strikes that increase in range as you hold sneak & ability key"}\'],custom_name:\'{"color":"#5b6ee1","italic":false,"text":"Summon storms"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 
 function ui:minecart/if_player {objective:"secondary", score:"108", cmd:'data modify storage ui mask insert 0 value {Slot: 7b, id:"minecraft:stick", "components": {"custom_model_data": 108, lore:[\'{"color":"gray","italic":false,"text":"Charges lightning strikes that increase in range as you hold sneak & ability key"}\'],custom_name:\'{"color":"#5b6ee1","italic":false,"text":"Summon storms"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
+
+function ui:minecart/if_player {objective:"primary", score:"114", cmd:'data modify storage ui mask insert 0 value {Slot: 5b, id:"minecraft:stick", "components": {"custom_model_data": 114, lore:[\'{"color":"gray","italic":false,"text":"Push all mobs back 5 blocks in a 10 block radius"}\'],custom_name:\'{"color":"#5b6ee1","italic":false,"text":"Force Push"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
+
+function ui:minecart/if_player {objective:"secondary", score:"114", cmd:'data modify storage ui mask insert 0 value {Slot: 7b, id:"minecraft:stick", "components": {"custom_model_data": 114, lore:[\'{"color":"gray","italic":false,"text":"Push all mobs back 5 blocks in a 10 block radius"}\'],custom_name:\'{"color":"#5b6ee1","italic":false,"text":"Force Push"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 
 function ui:minecart/if_player {objective:"primary", score:"40", cmd:'data modify storage ui mask insert 0 value {Slot: 5b, id:"minecraft:stick", "components": {"custom_model_data": 40, lore:[\'{"color":"gray","italic":false,"text":"you have 5 extra inventory slots they stay with you on death"}\'],custom_name:\'{"color":"dark_purple","italic":false,"text":"Inventory"}\', "minecraft:custom_data": {ui_item:{empty: 1b}}}}'}
 

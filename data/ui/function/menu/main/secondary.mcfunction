@@ -71,4 +71,7 @@ function ui:minecart/as_player {cmd:'execute if score @s predicate matches 103 r
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 108 run scoreboard players set @s secondary 108'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 108 run power grant @s chill:class/wizard/special/lightning/secondary chill:secondary'}
     
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 114 run scoreboard players set @s secondary 114'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 114 run power grant @s chill:class/wizard/high/push/secondary chill:secondary'}
+    
 function ui:menu/main/open_spellbook

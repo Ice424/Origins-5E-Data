@@ -5,9 +5,6 @@ Shoot a fireball that explodes
 wizard ice: Ice Walker
 Temporarily gain frost walker and slow aura
 
-wizard push: Force Push
-Push all mobs back 5 blocks in a 10 block radius
-
 wizard glow: Wizard\\\'s Knowledge
 All mobs within 20 blocks glow
 
