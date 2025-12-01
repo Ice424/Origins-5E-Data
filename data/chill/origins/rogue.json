@@ -1,6 +1,9 @@
 {
     "powers": [
+        "chill:class/rogue/passive/agro",
+        "chill:class/rogue/passive/footsteps",
         "chill:class/rogue/passive/hearts",
+        "chill:class/rogue/passive/nametag",
         "chill:class/rogue/passive/tag"
     ],
     "icon": {

@@ -1,0 +1,28 @@
+{
+    "name": "Force Push",
+    "description": "Push all mobs back 5 blocks in a 10 block radius",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:area_of_effect",
+                "radius": 10,
+                "bientity_action": {
+                    "type": "origins:add_velocity",
+                    "client": true,
+                    "z": 3,
+                    "y": 1.3
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:explosion_emitter"
+            }
+        ]
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "cooldown": 1200
+}
