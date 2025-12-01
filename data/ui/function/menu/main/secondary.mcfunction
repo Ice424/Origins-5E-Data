@@ -62,6 +62,9 @@ function ui:minecart/as_player {cmd:'execute if score @s predicate matches 89 ru
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 94 run scoreboard players set @s secondary 94'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 94 run power grant @s chill:class/tank/special/block/secondary chill:secondary'}
     
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 101 run scoreboard players set @s secondary 101'}
+function ui:minecart/as_player {cmd:'execute if score @s predicate matches 101 run power grant @s chill:class/tank/high/hook/secondary chill:secondary'}
+    
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 103 run scoreboard players set @s secondary 103'}
 function ui:minecart/as_player {cmd:'execute if score @s predicate matches 103 run power grant @s chill:class/tank/high/shield/secondary chill:secondary'}
     
