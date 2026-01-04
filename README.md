@@ -4,7 +4,7 @@
 
 ## About
 
-This is a data pack for Minecraft java edition that utilises the [origins mod](https://github.com/apace100/origins-fabric) for fabric it relies on this [resource pack](https://github.com/Ice424/Origins-V5-Resources)
+This is a data pack for Minecraft java edition that utilises the [origins mod](https://github.com/apace100/origins-fabric) for fabric it relies on this [resource pack](https://github.com/Ice424/Origins-5E-Resources)
 
 also requires [pehkui](https://github.com/Virtuoel/Pehkui)
 
